@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Edgar Hernando Sepúlveda-Oviedo",
+    "label": "Postdoctoral researcher",
+    "image": "assets/img/prof_pic.jpg",
+    "email": "ehsepulved@laas.fr",
+    "phone": "(+33) 5 61 33 69 47",
+    "url": "https://ehsepulvedao.github.io./",
+    "summary": "Researcher passionate about artificial intelligence, biology, medicine and renewable energy.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "7, av. du colonel Roche",
+      "postalCode": "31031",
+      "city": " Toulouse",
+      "countryCode": "FR",
+      "region": "Haute-Garonne"
     },
     "profiles": [
       {
