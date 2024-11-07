@@ -1,25 +1,29 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href="https://www.laas.fr">Laboratory for Analysis and Architecture of Systems.</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Postdoctoral researcher</p>
+    <p>Artificial intelligence for energy and medicine</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Researcher specializing in artificial intelligence, renewable energy, and biological systems modeling. I earned my degree in Mechatronic Engineering from the National University of Colombia in 2016 and completed my Master’s in Industrial Automation, with honors and a distinguished thesis (Tesis laureada), at the same university in 2019. In 2017, I worked as an assistant professor in the Faculty of Engineering at the National University of Colombia in Bogotá.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I obtained my PhD from <strong>Université Paul Sabatier</strong> and the <a href="https://www.laas.fr">Laboratory for Analysis and Architecture of Systems</a> at CNRS (LAAS-CNRS) in Toulouse, France. I completed my doctoral thesis with a thesis award (equivalent to Tesis laureada). During this time, I developed a joint patent with industry, creating an advanced monitoring system embedded with artificial intelligence algorithms for fault diagnosis in renewable energy applications, particularly for photovoltaic systems.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+During 2023, I served as an attaché temporaire d'enseignement et de recherche (ATER) at the <strong>Institut National des Sciences Appliquées de Toulouse (INSA Toulouse) in France</strong>. Additionally, I am a researcher with the <strong>Industrial Automation Group - GAUNAL</strong> and the <strong>Science, Engineering, and Health Research Group (GICIS)</strong> at the National University of Colombia, and I serve as a scientific evaluator within the European project <strong>France 2030</strong>, focusing on artificial intelligence.
+
+Currently, my postdoctoral research at LAAS-CNRS focuses on applying artificial intelligence and bio-inspired methods to improve energy storage systems for autonomous vehicles, fault diagnosis in electrical systems, and multi-domain modeling. I am also involved in the international project <strong>Stic AmSud HAMADI 4.0</strong>, where I develop new AI algorithms for Industry 4.0.
+
+My research areas include anomaly detection, localization, and identification in dynamic systems, machine learning, data mining, data science, instrumentation, computational intelligence, industrial automation, embedded systems, and predictive maintenance in Industry 4.0, as well as modeling biological systems, renewable energy, and developing new artificial intelligence algorithms.
+
