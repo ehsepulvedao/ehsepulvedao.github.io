@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /Repositories/
-title: Repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+permalink: /Software/
+title: Scientific Software
+description: Open-source scientific software and research repositories.
 nav: true
 nav_order: 4
 ---
