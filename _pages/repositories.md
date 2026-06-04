@@ -54,13 +54,3 @@ nav_order: 4
 
 ---
 
-<br>
-
-## Featured Resource
-
-### PatientEvoPhysio
-
-Open-source Modelica library for the simulation of neonatal, fetal, pediatric and adult physiological systems, including cardiovascular and respiratory dynamics.
-
-- GitHub Repository: https://github.com/ehsepulvedao/PatientEvoPhysio
-- DOI: https://doi.org/10.5281/zenodo.10054995
