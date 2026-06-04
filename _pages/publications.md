@@ -2,7 +2,7 @@
 layout: page
 permalink: /Publications/
 title: Publications
-description: Publications organized by research area.
+description: Publications by type in reverse chronological order.
 nav: true
 nav_order: 2
 ---
@@ -11,26 +11,26 @@ nav_order: 2
 
 <div class="publications">
 
-## Artificial Intelligence & Fault Diagnosis
+<h2>Journal Articles</h2>
 
-{% bibliography --query @*[keywords~=fault-diagnosis] %}
+{% bibliography --query @article %}
 
-## Renewable Energy Systems
+<h2>Patents</h2>
 
-{% bibliography --query @*[keywords~=renewable-energy] %}
+{% bibliography --query @patent %}
 
-## Biomedical Systems Modeling
-
-{% bibliography --query @*[keywords~=biomedical] %}
-
-## Conferences & Workshops
+<h2>Conference Papers and Presentations</h2>
 
 {% bibliography --query @inproceedings %}
+{% bibliography --query @misc %}
 
-## Theses & Software
+<h2>Theses</h2>
 
 {% bibliography --query @mastersthesis %}
 {% bibliography --query @phdthesis %}
+
+<h2>Software</h2>
+
 {% bibliography --query @softwareversion %}
 
 </div>
