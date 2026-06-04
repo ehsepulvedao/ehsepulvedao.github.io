@@ -10,17 +10,21 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Associate Professor (Maître de Conférences)</p>
-    <p>IUT Génie Industriel et Maintenance · UPVD</p>
-    <p>PROMES-CNRS · CSPG Research Team</p>
-    <p>AI for Fault Diagnosis and Intelligent Energy Systems</p>
+    <p><strong>Associate Professor</strong><br>
+    Maître de Conférences</p>
+    <p><strong>UPVD</strong><br>
+    IUT Génie Industriel et Maintenance</p>
+    <p><strong>PROMES-CNRS</strong><br>
+    CSPG Team</p>
+    <p><strong>Research areas</strong><br>
+    AI · Fault Diagnosis · Energy Systems</p>
 
 news: false
 selected_papers: true
 social: true
 ---
 
-I am an **Associate Professor (Maître de Conférences)** at the **Université de Perpignan Via Domitia (UPVD)**, affiliated with the **IUT Génie Industriel et Maintenance (GIM)** for teaching activities, and a researcher at **PROMES-CNRS (UPR 8521)** within the **CSPG (Control, Storage and Management of Electrical Grids)** research team.
+I am an **Associate Professor (Maître de Conférences)** at the **Université de Perpignan Via Domitia (UPVD)**, affiliated with the **IUT Génie Industriel et Maintenance (GIM)**, and a researcher at **PROMES-CNRS (UPR 8521)** within the **CSPG research team (Centrales Solaires de Prochaines Générations)**.
 
 My research focuses on the development of **artificial intelligence, fault diagnosis, predictive maintenance, prognostics, and decision-support methods** for renewable energy systems, smart grids, industrial processes, and cyber-physical systems. My objective is to design robust, interpretable, and deployable AI-based solutions capable of improving the reliability, resilience, and sustainability of complex engineering systems operating under real-world conditions.
 
