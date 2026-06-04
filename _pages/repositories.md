@@ -1,15 +1,15 @@
 ---
 layout: page
-permalink: /Software/
-title: Scientific Software
-description: Open-source scientific software and research repositories.
+permalink: /Repositories/
+title: Repositories
+description: Open-source software, datasets, and research repositories.
 nav: true
 nav_order: 4
 ---
 
 {% if site.data.repositories.github_users %}
 
-## GitHub users
+## GitHub Profile
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -37,7 +37,7 @@ nav_order: 4
 
 {% if site.data.repositories.github_repos %}
 
-## GitHub Repositories
+## Research Repositories
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
