@@ -45,3 +45,9 @@ nav_order: 4
   {% endfor %}
 </div>
 {% endif %}
+
+
+## Zenodo Records
+
+- [PatientEvoPhysio Simulator](https://doi.org/10.5281/zenodo.10054995)  
+  Open-source Modelica library for the simulation of physiological evolution in fetal, neonatal, pediatric and adult systems.
