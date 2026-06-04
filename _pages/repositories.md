@@ -17,6 +17,12 @@ nav_order: 4
 </div>
 {% endif %}
 
+<br>
+
+---
+
+<br>
+
 ## Research Repositories
 
 {% if site.data.repositories.github_repos %}
@@ -26,6 +32,12 @@ nav_order: 4
   {% endfor %}
 </div>
 {% endif %}
+
+<br>
+
+---
+
+<br>
 
 ## Open Science & Academic Profiles
 
@@ -38,9 +50,17 @@ nav_order: 4
 - [Zenodo](https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Sep%C3%BAlveda-Oviedo%2C%20Edgar%20Hernando%22&l=list&p=1&s=10&sort=bestmatch)
 - [Zotero](https://www.zotero.org/ehsepulvedao)
 
-## Research Resources
+<br>
 
-- PatientEvoPhysio Simulator (Open-source physiological modeling library)
-- Photovoltaic Fault Diagnosis Research
-- Battery Energy Storage Systems Research
-- Renewable Energy and Smart Grid Applications
+---
+
+<br>
+
+## Featured Resource
+
+### PatientEvoPhysio
+
+Open-source Modelica library for the simulation of neonatal, fetal, pediatric and adult physiological systems, including cardiovascular and respiratory dynamics.
+
+- GitHub Repository: https://github.com/ehsepulvedao/PatientEvoPhysio
+- DOI: https://doi.org/10.5281/zenodo.10054995
