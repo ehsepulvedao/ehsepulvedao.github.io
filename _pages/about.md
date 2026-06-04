@@ -2,15 +2,15 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href="https://www.promes.cnrs.fr">PROMES-CNRS (UPR 8521)</a> · Université de Perpignan Via Domitia (UPVD)
+subtitle: <a href="https://www.univ-perp.fr/">Université de Perpignan Via Domitia</a> · <a href="https://iut.univ-perp.fr/">University Institute of Technology (IUT)</a> · <a href="https://www.promes.cnrs.fr">PROMES-CNRS (UPR 8521)</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Associate Professor (Maître de Conférences)</p>
-    <p>Université de Perpignan Via Domitia</p>
+    <p>Associate Professor<br>Maître de Conférences</p>
+    <p>University Institute of Technology<br>Department of Industrial Engineering and Maintenance</p>
     <p>PROMES-CNRS · CSPG Team</p>
     <p>AI · Diagnostics · Renewable Energy · Biomedical Systems</p>
 
@@ -19,7 +19,7 @@ selected_papers: true
 social: true
 ---
 
-I am an **Associate Professor (Maître de Conférences)** in **Industrial Engineering and Maintenance** at the **Université de Perpignan Via Domitia (UPVD)**, where I am affiliated with the Department of Industrial Engineering and Maintenance (GIM). I am also a researcher at **PROMES-CNRS (UPR 8521)** within the **CSPG research team (Centrales Solaires de Prochaines Générations)**.
+I am an **Associate Professor (Maître de Conférences)** in **Industrial Engineering and Maintenance** at the **Université de Perpignan Via Domitia (UPVD)**, where I am affiliated with the **University Institute of Technology (IUT)** and the **Department of Industrial Engineering and Maintenance (GIM)**. I am also a researcher at **PROMES-CNRS (UPR 8521)** within the **CSPG research team (Centrales Solaires de Prochaines Générations)**.
 
 My research lies at the intersection of **artificial intelligence, fault diagnosis, prognostics, predictive maintenance, and complex systems engineering**. I develop model-based and data-driven approaches for monitoring, understanding, and improving the performance, reliability, and resilience of engineering systems operating under real-world conditions.
 
@@ -31,8 +31,8 @@ Prior to joining UPVD, I worked as a **Postdoctoral Researcher at LAAS-CNRS**, w
 
 I am qualified by the **French National Council of Universities (CNU)** in:
 
-- **Section 27** – Computer Science
 - **Section 61** – Computer Engineering, Automation and Signal Processing
+- **Section 27** – Computer Science
 - **Section 63** – Electrical Engineering, Electronics, Photonics and Systems
 
 My research interests include:
