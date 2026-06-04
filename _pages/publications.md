@@ -2,33 +2,35 @@
 layout: page
 permalink: /Publications/
 title: Publications
-description: Publications by type in reverse chronological order.
+description: Publications organized by research area.
 nav: true
 nav_order: 2
 ---
-
-<!-- _pages/publications.md -->
 
 {% include bib_search.liquid %}
 
 <div class="publications">
 
-## Journal Articles
+## Artificial Intelligence & Fault Diagnosis
 
-{% bibliography --query @article %}
+{% bibliography --query @*[keywords~=fault-diagnosis] %}
 
-## Conference Papers and Presentations
+## Renewable Energy Systems
+
+{% bibliography --query @*[keywords~=renewable-energy] %}
+
+## Biomedical Systems Modeling
+
+{% bibliography --query @*[keywords~=biomedical] %}
+
+## Conferences & Workshops
 
 {% bibliography --query @inproceedings %}
-{% bibliography --query @misc %}
 
-## Theses
+## Theses & Software
 
-{% bibliography --query @phdthesis %}
 {% bibliography --query @mastersthesis %}
-
-## Software
-
+{% bibliography --query @phdthesis %}
 {% bibliography --query @softwareversion %}
 
 </div>
