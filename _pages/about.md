@@ -2,28 +2,48 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href="https://www.laas.fr">Laboratory for Analysis and Architecture of Systems.</a>
+subtitle: <a href="https://www.promes.cnrs.fr">PROMES-CNRS</a> · Université de Perpignan Via Domitia · IUT Génie Industriel et Maintenance
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>Postdoctoral researcher</p>
-    <p>Artificial intelligence for energy and medicine</p>
+    <p>Associate Professor</p>
+    <p>Université de Perpignan Via Domitia</p>
+    <p>PROMES-CNRS</p>
+    <p>Artificial Intelligence for Energy Systems</p>
 
-news: false # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false
+selected_papers: true
+social: true
 ---
 
-Researcher specializing in artificial intelligence, renewable energy, and biological systems modeling. I earned my degree in Mechatronic Engineering from the National University of Colombia in 2016 and completed my Master’s in Industrial Automation, with honors and a distinguished thesis (Tesis laureada), at the same university in 2019. In 2017, I worked as an assistant professor in the Faculty of Engineering at the National University of Colombia in Bogotá.
+I am an Associate Professor in Industrial Engineering and Maintenance at the **Université de Perpignan Via Domitia (UPVD)**, within the Department of Industrial Engineering and Maintenance (GIM), and a researcher at **PROMES-CNRS (UPR 8521)**. My research focuses on the development of artificial intelligence, diagnostic, prognostic, and decision-support methods for renewable energy systems, smart grids, and industrial processes.
 
-I obtained my PhD from <strong>Université Paul Sabatier</strong> and the <a href="https://www.laas.fr">Laboratory for Analysis and Architecture of Systems</a> at CNRS (LAAS-CNRS) in Toulouse, France. I completed my doctoral thesis with a thesis award (equivalent to Tesis laureada). During this time, I developed a joint patent with industry, creating an advanced monitoring system embedded with artificial intelligence algorithms for fault diagnosis in renewable energy applications, particularly for photovoltaic systems.
+My work lies at the intersection of **artificial intelligence, fault diagnosis, predictive maintenance, energy systems, and industrial automation**. I am particularly interested in the design of robust, interpretable, and data-driven approaches for monitoring complex dynamic systems operating under real-world conditions. My current research activities address photovoltaic systems, battery energy storage systems, microgrids, digital twins, resilient energy infrastructures, and intelligent maintenance strategies.
 
-During 2023, I served as an attaché temporaire d'enseignement et de recherche (ATER) at the <strong>Institut National des Sciences Appliquées de Toulouse (INSA Toulouse) in France</strong>. Additionally, I am a researcher with the <strong>Industrial Automation Group - GAUNAL</strong> and the <strong>Science, Engineering, and Health Research Group (GICIS)</strong> at the National University of Colombia, and I serve as a scientific evaluator within the European project <strong>France 2030</strong>, focusing on artificial intelligence.
+I obtained my PhD from **Université Toulouse III – Paul Sabatier** and **LAAS-CNRS** in Toulouse, France, where I worked on fault detection and diagnosis in large-scale photovoltaic power plants. My doctoral research, conducted in collaboration with industry through a CIFRE program, led to the development of artificial-intelligence-based monitoring approaches for renewable energy applications and contributed to a joint industrial patent. This work was recognized with the **Prix de Thèse 2024** of the École Doctorale GEETS.
 
-Currently, my postdoctoral research at LAAS-CNRS focuses on applying artificial intelligence and bio-inspired methods to improve energy storage systems for autonomous vehicles, fault diagnosis in electrical systems, and multi-domain modeling. I am also involved in the international project <strong>Stic AmSud HAMADI 4.0</strong>, where I develop new AI algorithms for Industry 4.0.
+Before joining UPVD, I was a postdoctoral researcher at **LAAS-CNRS**, working on artificial intelligence methods for battery systems, power electronics, and energy management in autonomous vehicles. I also served as an **Attaché Temporaire d'Enseignement et de Recherche (ATER)** at **INSA Toulouse**, where I taught courses in automation, algorithmics, logic, and embedded systems.
 
-My research areas include anomaly detection, localization, and identification in dynamic systems, machine learning, data mining, data science, instrumentation, computational intelligence, industrial automation, embedded systems, and predictive maintenance in Industry 4.0, as well as modeling biological systems, renewable energy, and developing new artificial intelligence algorithms.
+I hold a degree in **Mechatronic Engineering** and a Master's degree in **Industrial Automation** from the **National University of Colombia**, where I graduated with honors and received the distinction of *Tesis Laureada*. Throughout my academic career, I have been involved in several international collaborations and research projects related to renewable energy, Industry 4.0, intelligent diagnostics, and advanced monitoring systems.
 
+My current research interests include:
+
+- Artificial Intelligence and Machine Learning
+- Explainable AI (XAI)
+- Fault Detection, Isolation and Diagnosis (FDI)
+- Prognostics and Predictive Maintenance
+- Renewable Energy Systems
+- Photovoltaic Power Plants
+- Battery Energy Storage Systems
+- Smart Grids and Microgrids
+- Digital Twins
+- Industrial Automation
+- Instrumentation and Monitoring Systems
+- Embedded Systems
+- Data Analytics and Data Mining
+- Industry 4.0 and Cyber-Physical Systems
+
+Beyond research, I am strongly committed to teaching and student supervision in industrial maintenance, automation, artificial intelligence, and energy systems. My objective is to contribute to the development of intelligent, resilient, and sustainable energy infrastructures through solutions that combine scientific excellence, industrial applicability, and societal impact.
