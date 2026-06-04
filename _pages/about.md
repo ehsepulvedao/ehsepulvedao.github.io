@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: about
 title: About
@@ -10,32 +9,27 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p><strong>Associate Professor</strong><br>
-    Maître de Conférences</p>
-
-    <p><strong>Université de Perpignan Via Domitia</strong><br>
-    Industrial Engineering & Maintenance</p>
-
-    <p><strong>PROMES-CNRS (UPR 8521)</strong><br>
-    CSPG Research Team</p>
-
-    <p><strong>Research Areas</strong><br>
-    AI · Diagnostics · Energy Systems</p>
+    <p>Associate Professor (Maître de Conférences)</p>
+    <p>Industrial Engineering & Maintenance</p>
+    <p>Université de Perpignan Via Domitia</p>
+    <p>PROMES-CNRS · CSPG Team</p>
+    <p>AI · Diagnostics · Energy Systems</p>
 
 news: false
 selected_papers: true
 social: true
 ---
 
-I am an **Associate Professor (Maître de Conférences)** in the field of **Industrial Engineering and Maintenance** at the **Université de Perpignan Via Domitia (UPVD)**, France, and a researcher at **PROMES-CNRS (UPR 8521)** within the **CSPG research team (Centrales Solaires de Prochaines Générations)**.
+I am an **Associate Professor (Maître de Conférences)** in **Industrial Engineering and Maintenance** at the **Université de Perpignan Via Domitia (UPVD)**, where I am affiliated with the Department of Industrial Engineering and Maintenance (GIM). I am also a researcher at **PROMES-CNRS (UPR 8521)** within the **CSPG research team (Centrales Solaires de Prochaines Générations)**.
 
-My research focuses on the development of **artificial intelligence, fault diagnosis, prognostics, predictive maintenance, and decision-support systems** for renewable energy systems, industrial processes, smart grids, and cyber-physical systems. My work aims to improve the reliability, resilience, efficiency, and sustainability of complex engineering systems through the combination of model-based and data-driven approaches.
+My research focuses on the development of **artificial intelligence, fault diagnosis, prognostics, predictive maintenance, and decision-support systems** for renewable energy systems, industrial processes, smart grids, and cyber-physical systems. My objective is to design robust, interpretable, and deployable AI-based solutions capable of improving the reliability, resilience, efficiency, and sustainability of complex engineering systems operating under real-world conditions.
 
-I received my PhD from **Université Toulouse III – Paul Sabatier** and **LAAS-CNRS** in Toulouse, France. My research has been recognized with the **Prix de Thèse 2024** awarded by the **École Doctorale GEETS**, and the **Best Oral Presentation Award** at the GEETS Doctoral School Conference in 2022.
+I received my PhD from **Université Toulouse III – Paul Sabatier** and **LAAS-CNRS** in Toulouse, France. My work has been recognized with the **Prix de Thèse 2024** awarded by the **École Doctorale GEETS** and the **Best Oral Presentation Award** at the GEETS Doctoral School Conference in 2022.
 
-Prior to joining UPVD, I worked as a **Postdoctoral Researcher at LAAS-CNRS**, where I developed artificial intelligence methods for battery energy storage systems, power electronics, and energy management applications. I also served as an **Attaché Temporaire d’Enseignement et de Recherche (ATER)** at **INSA Toulouse**, contributing to teaching activities in automation, electronics, algorithmics, logic, and embedded systems.
+Prior to joining UPVD, I worked as a **Postdoctoral Researcher at LAAS-CNRS**, where I developed artificial intelligence methods for battery energy storage systems, power electronics, and energy management applications. I also served as an **Attaché Temporaire d'Enseignement et de Recherche (ATER)** at **INSA Toulouse**, contributing to teaching activities in automation, electronics, algorithmics, logic, and embedded systems.
 
 I am qualified by the **French National Council of Universities (CNU)** in:
+
 - **Section 27** – Computer Science
 - **Section 61** – Computer Engineering, Automation and Signal Processing
 - **Section 63** – Electrical Engineering, Electronics, Photonics and Systems
@@ -64,4 +58,3 @@ Beyond research, I am actively engaged in teaching and supervising undergraduate
 ## Research Keywords
 
 Artificial Intelligence · Fault Diagnosis · Prognostics · Predictive Maintenance · Explainable AI · Renewable Energy · Photovoltaics · Battery Systems · Smart Grids · Digital Twins · Industrial Automation · Industry 4.0
-```
