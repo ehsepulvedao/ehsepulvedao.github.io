@@ -26,8 +26,8 @@ nav_order: 2
 
 <h2>Theses</h2>
 
-{% bibliography --query @mastersthesis %}
 {% bibliography --query @phdthesis %}
+{% bibliography --query @mastersthesis %}
 
 <h2>Software</h2>
 
