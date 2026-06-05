@@ -8,7 +8,7 @@ category: energy
 importance: 1
 period: 2026–2027
 status: Ongoing
-role: Principal Investigator and Project Coordinator
+role: Principal Investigator (PI) / project initiator / Project Coordinator
 funding: UPVD BQR 2026
 related_publications: true
 ---
