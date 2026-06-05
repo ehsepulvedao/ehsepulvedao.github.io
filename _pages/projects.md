@@ -6,7 +6,7 @@ description: Research, education, and open-science projects organized by scienti
 nav: true
 nav_order: 1
 display_categories: [energy, biomedical, education]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
