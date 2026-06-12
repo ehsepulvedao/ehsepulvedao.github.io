@@ -382,37 +382,3 @@ I have also contributed to the peer-review process of international conferences 
 </table>
 </div>
 
-<h2>Student Supervision and Academic Mentoring</h2>
-
-My academic service also includes the supervision and evaluation of student projects, internships, and research-oriented activities in industrial maintenance, automation, artificial intelligence, renewable energy systems, and biomedical modeling.
-
-<div class="table-responsive">
-<table class="table table-sm table-striped">
-<thead>
-<tr>
-<th>Level</th>
-<th>Activities</th>
-<th>Main Topics</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>BUT / Undergraduate</td>
-<td>Project supervision, SAE evaluation, internship supervision</td>
-<td>Industrial maintenance, instrumentation, automation, predictive maintenance</td>
-</tr>
-<tr>
-<td>Engineering / Master</td>
-<td>Research internships, project mentoring, scientific supervision</td>
-<td>Artificial intelligence, photovoltaic systems, IoT monitoring, diagnostics</td>
-</tr>
-<tr>
-<td>Doctoral / Research</td>
-<td>Scientific mentoring and collaborative supervision</td>
-<td>Fault diagnosis, digital twins, energy systems, biomedical modeling</td>
-</tr>
-</tbody>
-</table>
-</div>
-
-</div>
