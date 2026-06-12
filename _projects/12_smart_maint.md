@@ -3,7 +3,7 @@ layout: page
 title: SMART-MAINT
 subtitle: Intelligent platform for predictive maintenance education
 description: Research-driven pedagogical platform connecting IoT, real data, predictive maintenance and engineering education.
-img: assets/img/1.jpg
+img: assets/img/maint.png
 category: education
 importance: 1
 period: 2025–ongoing
