@@ -3,7 +3,7 @@ layout: page
 title: Humanoid Robotics and Compliant Actuation
 subtitle: Biped locomotion, compliant mechanisms and bio-inspired robotic systems
 description: Research project focused on humanoid locomotion, compliant joints and robotic force control.
-img: assets/img/3.jpg
+img: assets/img/humanoid.png
 category: biomedical
 importance: 13
 period: 2014–2015
