@@ -176,20 +176,18 @@ html[data-theme="dark"] body {
   align-items: center;
   justify-content: center;
 
-  padding: 0.72rem 1.25rem;
-  border-radius: 18px;
+  padding: 0.75rem 1.35rem;
+  border-radius: 24px;
 
-  background: rgba(10, 20, 30, 0.48);
-  border: 1.6px solid rgba(255, 255, 255, 0.85);
+  background: rgba(255,255,255,0.08);
+  border: 2px solid white;
 
   color: white !important;
-  font-size: 0.95rem;
   font-weight: 600;
-  line-height: 1;
 
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+
   backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
 }
 
 .metrics-grid {
