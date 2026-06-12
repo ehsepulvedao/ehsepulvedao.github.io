@@ -3,7 +3,7 @@ layout: page
 title: IoT-Based Active Learning for Control Systems
 subtitle: 5E instructional model and IoT-enabled pocket laboratories for control engineering education
 description: International pedagogical project using ESP32, MQTT, Jupyter notebooks and IoT-based pocket laboratories for active learning in control systems.
-img: assets/img/IoT.jpg
+img: assets/img/IoT.png
 category: education
 importance: 3
 period: 2024–2025
