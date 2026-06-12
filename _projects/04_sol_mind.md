@@ -3,7 +3,7 @@ layout: page
 title: SOL-MIND
 subtitle: Solar Multivariate Interpretable Navigation and Diagnosis-Mapping
 description: UPVD BQR 2026 project dedicated to explainable diagnostics, cognitive mapping and topological analysis of photovoltaic systems.
-img: assets/img/12.jpg
+img: assets/img/solmind.png
 category: energy
 importance: 1
 period: 2026–2027
