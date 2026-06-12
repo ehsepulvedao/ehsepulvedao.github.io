@@ -3,7 +3,7 @@ layout: page
 title: INFINITY
 subtitle: Intelligent and Frugal Infrastructure for Innovation and Technology
 description: AIRE 2026 project dedicated to intelligent diagnosis and reliability of IoT sensor networks for Maintenance 5.0.
-img: assets/img/infinity.jpg
+img: assets/img/infinity.png
 category: energy
 importance: 3
 period: 2026
