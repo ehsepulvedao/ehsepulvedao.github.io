@@ -3,7 +3,7 @@ layout: page
 title: PV Fault Diagnosis in Large-Scale Power Plants
 subtitle: AI-based monitoring, fault diagnosis and performance loss assessment for utility-scale photovoltaic systems
 description: CIFRE PhD research project on fault diagnosis, monitoring and predictive maintenance for photovoltaic power plants.
-img: assets/img/12.jpg
+img: assets/img/tesis.png
 category: energy
 importance: 8
 period: 2020–2023
