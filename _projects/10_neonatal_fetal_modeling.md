@@ -3,7 +3,7 @@ layout: page
 title: Neonatal and Fetal Physiological Modeling
 subtitle: Dynamic, hybrid and physiologically based modeling of fetal-to-neonatal transition
 description: Computational modeling of neonatal adaptation, fetal circulation, umbilical cord clamping and cardiovascular-respiratory physiology.
-img: assets/img/neonatal.jpg
+img: assets/img/neonatal.png
 category: biomedical
 importance: 1
 period: 2016–ongoing
