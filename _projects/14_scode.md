@@ -3,7 +3,7 @@ layout: page
 title: SCODE
 subtitle: Supervisory Control Deployment Environment
 description: Framework for deploying supervisory control theory into PLC code and validating industrial automation through digital twins.
-img: assets/img/1.jpg
+img: assets/img/scode.jpg
 category: education
 importance: 2
 period: 2022–ongoing
