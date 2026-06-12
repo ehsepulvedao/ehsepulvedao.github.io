@@ -3,7 +3,7 @@ layout: page
 title: PV-FIT
 subtitle: Functional and Time-Frequency Toolkit for Interpretable Anomaly Detection in Photovoltaic Signals
 description: FREE 2026 project dedicated to functional data analysis, time-frequency representations and frugal AI for photovoltaic fault diagnosis.
-img: assets/img/12.jpg
+img: assets/img/FREEPVFIT.png
 category: energy
 importance: 2
 period: 2026–2027
