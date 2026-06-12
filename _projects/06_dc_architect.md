@@ -3,7 +3,7 @@ layout: page
 title: PEPR TASE – DC-ARCHITECT
 subtitle: Intelligent diagnosis and prognostics of battery energy storage systems for resilient AC/DC networks
 description: Research activity within PEPR TASE focused on AI-based diagnostics, prognostics and health monitoring of battery energy storage systems in AC/DC distribution grids.
-img: assets/img/12.jpg
+img: assets/img/DC.jpg
 category: energy
 importance: 5
 period: 2024–ongoing
