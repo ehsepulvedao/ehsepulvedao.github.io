@@ -3,7 +3,7 @@ layout: page
 title: 4BLIFE
 subtitle: Artificial intelligence for battery health estimation and lifetime prediction
 description: ADEME-funded project focused on diagnostics and prognostics of lithium-ion batteries for sustainable mobility and energy systems.
-img: assets/img/12.jpg
+img: assets/img/soh.png
 category: energy
 importance: 6
 period: 2022–2025
