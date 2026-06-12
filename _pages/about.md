@@ -81,7 +81,8 @@ My primary research interests lie in **renewable energy systems**, including pho
   <div class="timeline-item"><strong>2020–2023</strong> CIFRE PhD, LAAS-CNRS and Feedgy</div>
   <div class="timeline-item"><strong>2023</strong> Postdoctoral Researcher, LAAS-CNRS</div>
   <div class="timeline-item"><strong>2023–2024</strong> ATER, INSA Toulouse</div>
-  <div class="timeline-item"><strong>2024–present</strong> Associate Professor, UPVD · PROMES-CNRS</div>
+  <div class="timeline-item"><strong>2024-2025</strong> Postdoctoral Researcher, LAAS-CNRS</div>
+  <div class="timeline-item"><strong>2025–present</strong> Associate Professor, UPVD · PROMES-CNRS</div>
 </div>
 
 I obtained my PhD from **Université Toulouse III – Paul Sabatier** and **LAAS-CNRS** in Toulouse, France. My doctoral work was recognized with the **Prix de Thèse 2024** awarded by the **École Doctorale GEETS**, as well as the **Best Oral Presentation Award** at the GEETS Doctoral School Conference in 2022.
