@@ -1,68 +1,47 @@
 <div class="col mb-4">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
+  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" class="project-card-link">
+    <div class="card h-100 hoverable project-card">
 
       {% if project.img %}
-        {%
-          include figure.liquid
+        {% include figure.liquid
           loading="eager"
           path=project.img
           sizes="250px"
           alt="project thumbnail"
-          class="card-img-top"
-        %}
+          class="card-img-top project-img" %}
       {% endif %}
 
       <div class="card-body">
-
-        <h2 class="card-title">{{ project.title }}</h2>
+        <h2 class="card-title project-title">{{ project.title }}</h2>
 
         {% if project.subtitle %}
-          <p class="text-muted mb-2">{{ project.subtitle }}</p>
+          <p class="project-subtitle">{{ project.subtitle }}</p>
         {% endif %}
 
-        <p class="card-text">{{ project.description }}</p>
+        <p class="card-text project-description">{{ project.description }}</p>
 
-        {% if project.role %}
-          <p class="mb-1"><strong>Role:</strong> {{ project.role }}</p>
-        {% endif %}
-
-        {% if project.period %}
-          <p class="mb-1"><strong>Period:</strong> {{ project.period }}</p>
-        {% endif %}
-
-        {% if project.status %}
-          <p class="mb-2"><strong>Status:</strong> {{ project.status }}</p>
-        {% endif %}
-
-        <div class="row ml-1 mr-1 p-0">
-
-          {% if project.github %}
-            <div class="github-icon mr-3">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-              </div>
-            </div>
+        <div class="project-meta">
+          {% if project.funding %}
+            <span><strong>Funding:</strong> {{ project.funding }}</span>
           {% endif %}
-
-          {% if project.website %}
-            <div class="github-icon mr-3">
-              <div class="icon" data-toggle="tooltip" title="Project Website">
-                <a href="{{ project.website }}"><i class="fa-solid fa-link gh-icon"></i></a>
-              </div>
-            </div>
+          {% if project.role %}
+            <span><strong>Role:</strong> {{ project.role }}</span>
           {% endif %}
-
-          {% if project.doi %}
-            <div class="github-icon mr-3">
-              <div class="icon" data-toggle="tooltip" title="DOI">
-                <a href="{{ project.doi }}"><i class="fa-solid fa-file-lines gh-icon"></i></a>
-              </div>
-            </div>
+          {% if project.period %}
+            <span><strong>Period:</strong> {{ project.period }}</span>
           {% endif %}
-
+          {% if project.status %}
+            <span><strong>Status:</strong> {{ project.status }}</span>
+          {% endif %}
         </div>
 
+        {% if project.github %}
+          <div class="github-icon mt-2">
+            <div class="icon" data-toggle="tooltip" title="Code Repository">
+              <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+            </div>
+          </div>
+        {% endif %}
       </div>
     </div>
   </a>
