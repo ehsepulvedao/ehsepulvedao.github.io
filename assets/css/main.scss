@@ -124,7 +124,7 @@ $max-content-width: {{ site.max_width }};
 
 body {
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)),
+     linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)),
     url("/assets/img/bg_pattern.png");
   background-size: cover;
   background-attachment: fixed;
@@ -150,7 +150,7 @@ html[data-theme="dark"] body {
   overflow: hidden;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)),
-    url("/assets/img/hero_ai_energy.jpg");
+    url("/assets/img/hero_ai_energy.png");
   background-size: cover;
   background-position: center;
   display: flex;
