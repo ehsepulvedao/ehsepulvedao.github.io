@@ -20,7 +20,8 @@ horizontal: true
 
   /* Títulos de categorías */
   .projects .category {
-    color: var(--global-text-color);
+    color: #222 !important;
+    opacity: 1 !important;
     font-size: 2.2rem;
     font-weight: 500;
     margin-top: 3rem;
