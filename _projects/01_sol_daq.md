@@ -3,7 +3,7 @@ layout: page
 title: SOL-DAQ
 subtitle: Solar Diagnostic-Oriented Data Acquisition Platform
 description: Experimental platform for high-frequency photovoltaic data acquisition and diagnostic-oriented monitoring.
-img: assets/img/SOL_DAQ.jpg
+img: assets/img/SOLDAQ.jpg
 category: energy
 importance: 1
 period: 2025–ongoing
