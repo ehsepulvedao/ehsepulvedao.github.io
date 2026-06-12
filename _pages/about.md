@@ -9,25 +9,42 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Associate Professor<br>Maître de Conférences</p>
-    <p>University Institute of Technology<br>Department of Industrial Engineering and Maintenance</p>
-    <p>PROMES-CNRS · CSPG Team</p>
-    <p>AI · Diagnostics · Renewable Energy · Biomedical Systems</p>
+    <div style="padding:12px 14px; border-left:4px solid #8e44ad; background:#f8f9fa; border-radius:6px;">
+      <p style="margin-bottom:10px;">
+        <strong>Associate Professor</strong><br>
+        Maître de Conférences
+      </p>
+
+      <p style="margin-bottom:10px;">
+        <strong>Affiliations</strong><br>
+        UPVD · IUT GIM<br>
+        PROMES-CNRS (UPR 8521)<br>
+        CSPG Research Team
+      </p>
+
+      <p style="margin-bottom:0;">
+        <strong>Research Areas</strong><br>
+        Artificial Intelligence<br>
+        Fault Diagnosis & Prognostics<br>
+        Renewable Energy Systems<br>
+        Biomedical Modeling
+      </p>
+    </div>
 
 news: false
-selected_papers: true
+selected_papers: false
 social: true
 ---
 
-I am an **Associate Professor (Maître de Conférences)** in **Industrial Engineering and Maintenance** at the **Université de Perpignan Via Domitia (UPVD)**, where I am affiliated with the **University Institute of Technology (IUT)** and the **Department of Industrial Engineering and Maintenance (GIM)**. I am also a researcher at **PROMES-CNRS (UPR 8521)** within the **CSPG research team (Centrales Solaires de Prochaines Générations)**.
+I am an **Associate Professor (Maître de Conférences)** in **Industrial Engineering and Maintenance** at the **Université de Perpignan Via Domitia (UPVD)** and a researcher at **PROMES-CNRS (UPR 8521)** within the **CSPG research team (Centrales Solaires de Prochaines Générations)**.
 
-My research lies at the intersection of **artificial intelligence, fault diagnosis, prognostics, predictive maintenance, and complex systems engineering**. I develop model-based and data-driven approaches for monitoring, understanding, and improving the performance, reliability, and resilience of engineering systems operating under real-world conditions.
+My research focuses on the development of **model-based and data-driven approaches for fault diagnosis, prognostics, predictive maintenance, and artificial intelligence applied to complex engineering systems**. My work aims to improve the performance, reliability, resilience, and interpretability of industrial and energy systems operating under real-world conditions.
 
-My main research domain focuses on **renewable energy systems**, including photovoltaic power plants, battery energy storage systems, smart grids, microgrids, and digital twins. In parallel, I have conducted research in **biomedical systems modeling**, particularly on neonatal and fetal physiological dynamics, computational medicine, and simulation-based medical education. These activities share a common scientific objective: the diagnosis, monitoring, and prediction of the behavior of complex dynamic systems.
+My primary research interests lie in **renewable energy systems**, including photovoltaic power plants, battery energy storage systems, smart grids, microgrids, digital twins, and intelligent monitoring platforms. In parallel, I have conducted research in **biomedical systems modeling**, particularly in neonatal and fetal physiology, computational medicine, hybrid systems, and simulation-based medical education. These domains share a common scientific objective: understanding, diagnosing, and predicting the behavior of complex dynamic systems.
 
-I received my PhD from **Université Toulouse III – Paul Sabatier** and **LAAS-CNRS** in Toulouse, France. My work has been recognized with the **Prix de Thèse 2024** awarded by the **École Doctorale GEETS** and the **Best Oral Presentation Award** at the GEETS Doctoral School Conference in 2022.
+I obtained my PhD from **Université Toulouse III – Paul Sabatier** and **LAAS-CNRS** in Toulouse, France. My doctoral work was recognized with the **Prix de Thèse 2024** awarded by the **École Doctorale GEETS** and the **Best Oral Presentation Award** at the GEETS Doctoral School Conference in 2022.
 
-Prior to joining UPVD, I worked as a **Postdoctoral Researcher at LAAS-CNRS**, where I developed artificial intelligence methods for battery energy storage systems, power electronics, and energy management applications. I also served as an **Attaché Temporaire d’Enseignement et de Recherche (ATER)** at **INSA Toulouse**, contributing to teaching activities in automation, electronics, algorithmics, logic, and embedded systems.
+Prior to joining UPVD, I worked as a **Postdoctoral Researcher at LAAS-CNRS**, developing artificial intelligence methods for battery energy storage systems, power electronics, and energy management applications. I also served as an **Attaché Temporaire d’Enseignement et de Recherche (ATER)** at **INSA Toulouse**, contributing to teaching activities in automation, electronics, algorithmics, logic, and embedded systems.
 
 I am qualified by the **French National Council of Universities (CNU)** in:
 
@@ -35,7 +52,11 @@ I am qualified by the **French National Council of Universities (CNU)** in:
 - **Section 27** – Computer Science
 - **Section 63** – Electrical Engineering, Electronics, Photonics and Systems
 
-My research interests include:
+I actively participate in national and international collaborations related to intelligent energy systems, renewable energy integration, explainable artificial intelligence, advanced diagnostics, digital twins, resilient smart grids, and complex dynamic systems.
+
+Beyond research, I am involved in teaching, student supervision, scientific reviewing activities, and the development of open-source scientific software and educational resources.
+
+## Research Interests
 
 - Artificial Intelligence and Machine Learning
 - Explainable Artificial Intelligence (XAI)
@@ -53,11 +74,3 @@ My research interests include:
 - Embedded Systems
 - Data Analytics and Data Mining
 - Industry 4.0 and Cyber-Physical Systems
-
-I am currently involved in national and international research collaborations related to intelligent energy systems, renewable energy integration, advanced diagnostics, digital twins, resilient smart grids, and the modeling of complex dynamic systems. My work seeks to bridge the gap between fundamental research and real-world deployment by developing practical, reliable, and interpretable solutions for both engineering and biomedical applications.
-
-Beyond research, I am actively engaged in teaching and supervising undergraduate, master's, and doctoral students in industrial maintenance, automation, artificial intelligence, energy systems, and applied modeling.
-
-## Research Keywords
-
-Artificial Intelligence · Fault Diagnosis · Prognostics · Predictive Maintenance · Explainable AI · Renewable Energy · Photovoltaics · Battery Energy Storage · Smart Grids · Digital Twins · Industrial Automation · Biomedical Modeling · Neonatal and Fetal Systems · Industry 4.0
