@@ -15,7 +15,7 @@ This page summarizes my academic service activities, including peer review, conf
 
 <h2>Editorial and Peer-Review Activities</h2>
 
-I regularly serve as a reviewer for international peer-reviewed journals in the fields of renewable energy, artificial intelligence, fault diagnosis, predictive maintenance, energy systems, and industrial applications.
+I regularly serve as a reviewer for international peer-reviewed journals in the fields of renewable energy, photovoltaic systems, artificial intelligence, fault diagnosis, predictive maintenance, energy systems, industrial applications, and applied engineering.
 
 <div class="table-responsive">
 <table class="table table-sm table-striped">
@@ -38,7 +38,7 @@ I regularly serve as a reviewer for international peer-reviewed journals in the 
 <td><em>Energy Strategy Reviews</em></td>
 <td>Elsevier</td>
 <td>Q1</td>
-<td>Energy policy, renewable energy, energy transition</td>
+<td>Energy policy, energy systems, renewable energy transition</td>
 </tr>
 <tr>
 <td><em>Engineering Applications of Artificial Intelligence</em></td>
@@ -59,10 +59,28 @@ I regularly serve as a reviewer for international peer-reviewed journals in the 
 <td>Smart grids, renewable integration, energy networks</td>
 </tr>
 <tr>
+<td><em>Sustainable Energy Technologies and Assessments</em></td>
+<td>Elsevier</td>
+<td>Q1</td>
+<td>Sustainable energy technologies, assessment, energy systems</td>
+</tr>
+<tr>
 <td><em>Energy and AI</em></td>
 <td>Elsevier</td>
 <td>Q1 / Emerging high-impact journal</td>
 <td>Artificial intelligence for energy systems</td>
+</tr>
+<tr>
+<td><em>Energy Conversion and Management: X</em></td>
+<td>Elsevier</td>
+<td>Q1</td>
+<td>Energy conversion, energy management, renewable energy systems</td>
+</tr>
+<tr>
+<td><em>Energy Nexus</em></td>
+<td>Elsevier</td>
+<td>Scopus-indexed</td>
+<td>Energy systems, sustainability, energy nexus</td>
 </tr>
 <tr>
 <td><em>Franklin Open</em></td>
@@ -71,18 +89,98 @@ I regularly serve as a reviewer for international peer-reviewed journals in the 
 <td>Engineering, applied science, interdisciplinary research</td>
 </tr>
 <tr>
+<td><em>IEEE Journal of Photovoltaics</em></td>
+<td>IEEE</td>
+<td>Q1</td>
+<td>Photovoltaic systems, solar cells, PV technologies</td>
+</tr>
+<tr>
+<td><em>Scientific Reports</em></td>
+<td>Springer Nature</td>
+<td>Q1</td>
+<td>Multidisciplinary science</td>
+</tr>
+<tr>
+<td><em>Discover Energy</em></td>
+<td>Springer Nature</td>
+<td>Emerging journal</td>
+<td>Energy systems, renewable energy, sustainability</td>
+</tr>
+<tr>
+<td><em>Energy Science & Engineering</em></td>
+<td>Wiley</td>
+<td>Q2 / Scopus-indexed</td>
+<td>Energy science, engineering, renewable energy</td>
+</tr>
+<tr>
+<td><em>Energies</em></td>
+<td>MDPI</td>
+<td>Q2 / Scopus-indexed</td>
+<td>Energy systems, renewable energy, power systems</td>
+</tr>
+<tr>
+<td><em>Sustainability</em></td>
+<td>MDPI</td>
+<td>Q2 / Scopus-indexed</td>
+<td>Sustainability, environment, energy systems</td>
+</tr>
+<tr>
+<td><em>Electronics</em></td>
+<td>MDPI</td>
+<td>Q2 / Scopus-indexed</td>
+<td>Electronics, embedded systems, power electronics</td>
+</tr>
+<tr>
+<td><em>PLOS ONE</em></td>
+<td>PLOS</td>
+<td>Q1 / Multidisciplinary</td>
+<td>Multidisciplinary science</td>
+</tr>
+<tr>
+<td><em>Quantitative Imaging in Medicine and Surgery</em></td>
+<td>AME Publishing</td>
+<td>Q1 / Scopus-indexed</td>
+<td>Biomedical imaging, medical data analysis</td>
+</tr>
+<tr>
+<td><em>Computers, Materials & Continua</em></td>
+<td>Tech Science Press</td>
+<td>Scopus-indexed</td>
+<td>Computer science, materials, computational methods</td>
+</tr>
+<tr>
+<td><em>International Journal of Power Electronics and Drive Systems</em></td>
+<td>IAES</td>
+<td>Scopus-indexed</td>
+<td>Power electronics, electrical drives, energy systems</td>
+</tr>
+<tr>
 <td><em>Bulletin of Electrical Engineering and Informatics</em></td>
 <td>IAES</td>
 <td>Scopus-indexed / Q2</td>
 <td>Electrical engineering, informatics, automation</td>
 </tr>
+<tr>
+<td><em>Journal of Renewable Energy and Environment</em></td>
+<td>University / Academic Publisher</td>
+<td>Peer-reviewed journal</td>
+<td>Renewable energy, environmental systems</td>
+</tr>
+<tr>
+<td><em>CT&F - Ciencia, Tecnología y Futuro</em></td>
+<td>Ecopetrol / Scientific Publisher</td>
+<td>Scopus-indexed</td>
+<td>Energy, oil and gas, industrial systems</td>
+</tr>
 </tbody>
 </table>
 </div>
 
+<p><small><em>Note: journal quartiles may vary by year, database and subject category. They are reported here as indicative academic classifications.</em></small></p>
+
 <h2>Conference Reviewing Activities</h2>
 
-I have also contributed to the peer-review process of international conferences and scientific events related to fault diagnosis, artificial intelligence, energy systems, and automatic control.
+I have also contributed to the peer-review process of international conferences and scientific events related to fault diagnosis, artificial intelligence, energy systems, electrical engineering, and automatic control.
 
 <div class="table-responsive">
 <table class="table table-sm table-striped">
@@ -99,13 +197,19 @@ I have also contributed to the peer-review process of international conferences 
 <td>SAFEPROCESS</td>
 <td>IFAC</td>
 <td>Reviewer</td>
-<td>Fault detection, supervision, safety of technical processes</td>
+<td>Fault detection, supervision, safety and reliability of technical processes</td>
 </tr>
 <tr>
-<td>Engineering Applications of Artificial Intelligence Conference / Special Issues</td>
+<td>Engineering Applications of Artificial Intelligence</td>
 <td>Elsevier</td>
 <td>Reviewer</td>
 <td>Artificial intelligence and engineering applications</td>
+</tr>
+<tr>
+<td>Symposium de Génie Électrique</td>
+<td>SGE</td>
+<td>Reviewer</td>
+<td>Electrical engineering, energy systems, power electronics</td>
 </tr>
 <tr>
 <td>IFAC scientific events</td>
@@ -131,7 +235,7 @@ I have also contributed to the peer-review process of international conferences 
 <tbody>
 <tr>
 <td>IFAC Technical Committee SAFEPROCESS</td>
-<td>Member / prospective member</td>
+<td>Member / contributor</td>
 <td>Fault detection, supervision, safety and reliability of technical processes</td>
 </tr>
 <tr>
@@ -158,17 +262,17 @@ I have also contributed to the peer-review process of international conferences 
 </thead>
 <tbody>
 <tr>
-<td>Section 61</td>
+<td><a href="https://clubeea.com/recommandations-cnu/" target="_blank" rel="noopener noreferrer">Section 61</a></td>
 <td>Computer Engineering, Automatic Control and Signal Processing</td>
 <td>Qualified for Maître de Conférences</td>
 </tr>
 <tr>
-<td>Section 27</td>
+<td><a href="https://cnu27.ls2n.fr/" target="_blank" rel="noopener noreferrer">Section 27</a></td>
 <td>Computer Science</td>
 <td>Qualified for Maître de Conférences</td>
 </tr>
 <tr>
-<td>Section 63</td>
+<td><a href="https://sectioncnu63qlf.sciencesconf.org/" target="_blank" rel="noopener noreferrer">Section 63</a></td>
 <td>Electrical Engineering, Electronics, Photonics and Systems</td>
 <td>Qualified for Maître de Conférences</td>
 </tr>
@@ -199,6 +303,11 @@ I have also contributed to the peer-review process of international conferences 
 <td>Innovation, research and technology-oriented project evaluation</td>
 </tr>
 <tr>
+<td>Manuscript evaluation</td>
+<td>Peer reviewer</td>
+<td>International journals and conferences in energy, AI, diagnostics and engineering</td>
+</tr>
+<tr>
 <td>Internship and student project evaluation</td>
 <td>Academic evaluator / supervisor</td>
 <td>BUT, engineering, master-level and international internship projects</td>
@@ -207,7 +316,7 @@ I have also contributed to the peer-review process of international conferences 
 </table>
 </div>
 
-<h2>Honors and Awards</h2>
+<h2>Honors, Awards and Scholarships</h2>
 
 <div class="table-responsive">
 <table class="table table-sm table-striped">
@@ -230,19 +339,44 @@ I have also contributed to the peer-review process of international conferences 
 <td>GEETS Doctoral School Conference</td>
 </tr>
 <tr>
-<td>2019</td>
-<td>Major de promotion</td>
-<td>Master in Industrial Automation</td>
-</tr>
-<tr>
-<td>2019</td>
-<td>Artificial Intelligence Scholarship</td>
-<td>MinTIC</td>
-</tr>
-<tr>
 <td>2022</td>
-<td>Misión TIC Scholarship</td>
-<td>MinTIC / Misión TIC</td>
+<td>Merit-based Artificial Intelligence Scholarship</td>
+<td>Misión TIC</td>
+</tr>
+<tr>
+<td>2019</td>
+<td>Valedictorian / Major de promotion, Master in Industrial Automation</td>
+<td>Universidad Nacional de Colombia</td>
+</tr>
+<tr>
+<td>2019</td>
+<td>Merit-based Artificial Intelligence Scholarship</td>
+<td>Ministry of Information and Communication Technologies of Colombia (MinTIC)</td>
+</tr>
+<tr>
+<td>2019</td>
+<td>Awarded Master’s Thesis</td>
+<td>Universidad Nacional de Colombia</td>
+</tr>
+<tr>
+<td>2017</td>
+<td>Merit-based Graduate Studies Scholarship</td>
+<td>Universidad Nacional de Colombia</td>
+</tr>
+<tr>
+<td>2017</td>
+<td>Merit-based Scholarship for Entrepreneurship and Leadership</td>
+<td>College of Higher Administration Studies</td>
+</tr>
+<tr>
+<td>2016</td>
+<td>Merit-based Master’s Scholarship – Highest Academic Average</td>
+<td>Universidad Nacional de Colombia</td>
+</tr>
+<tr>
+<td>2015</td>
+<td>Valedictorian / Major de promotion, Mechatronics Engineering</td>
+<td>Universidad Nacional de Colombia</td>
 </tr>
 </tbody>
 </table>
