@@ -12,8 +12,11 @@ hero_tags:
   - Artificial Intelligence
   - Explainable AI
   - Fault Diagnosis
+  - Anomaly Detection
+  - Predictive Maintenance
   - PHM
   - Photovoltaics
+  - Battery Systems
   - Digital Twins
 
 news: false
