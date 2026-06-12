@@ -2,7 +2,7 @@
 layout: page
 permalink: /Repositories/
 title: Repositories
-description: Open-source software, datasets, academic profiles, and research repositories.
+description: ""
 nav: true
 nav_order: 4
 ---
@@ -47,10 +47,5 @@ nav_order: 4
 - [Semantic Scholar](https://www.semanticscholar.org/author/2076554609)
 - [ResearchGate](https://www.researchgate.net/profile/Edgar-Sepulveda-Oviedo)
 - [HAL](https://hal.science/search/index/q/*/authFullName_s/Edgar%20Hernando%20Sep%C3%BAlveda-Oviedo)
-- [Zenodo](https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Sep%C3%BAlveda-Oviedo%2C%20Edgar%20Hernando%22&l=list&p=1&s=10&sort=bestmatch)
+- [Zenodo](https://zenodo.org)
 - [Zotero](https://www.zotero.org/ehsepulvedao)
-
-<br>
-
----
-
