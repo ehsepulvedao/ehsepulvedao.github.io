@@ -34,7 +34,7 @@ profile:
 hero: true
 hero_title: Artificial Intelligence for Sustainable Energy Systems
 hero_subtitle: Fault diagnosis, predictive maintenance, explainable AI and digital twins for renewable energy, smart grids, batteries and complex dynamic systems.
-hero_affiliation: Associate Professor · PROMES-CNRS · Université de Perpignan Via Domitia
+hero_affiliation: ""
 hero_tags:
   - Artificial Intelligence
   - Fault Diagnosis
