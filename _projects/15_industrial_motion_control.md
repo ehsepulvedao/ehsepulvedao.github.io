@@ -3,7 +3,7 @@ layout: page
 title: Industrial Motion Control and Automation Platforms
 subtitle: CompactLogix, industrial communications and motion control architectures
 description: Development of industrial automation, motion control and educational platforms based on Allen-Bradley technologies.
-img: assets/img/12.jpg
+img: assets/img/control.png
 category: teaching
 importance: 12
 period: 2015–2016
