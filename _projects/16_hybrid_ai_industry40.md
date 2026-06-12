@@ -3,7 +3,7 @@ layout: page
 title: Hybrid Artificial Intelligence for Diagnosis in Industry 4.0
 subtitle: Combining model-based and data-driven approaches for intelligent process monitoring
 description: International STIC-AmSud project focused on hybrid artificial intelligence methods for industrial diagnosis and predictive maintenance.
-img: assets/img/12.jpg
+img: assets/img/hybrid.png
 category: energy
 importance: 11
 period: 2021–2024
