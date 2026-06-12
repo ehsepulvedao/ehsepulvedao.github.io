@@ -31,118 +31,22 @@ profile:
       </p>
     </div>
 
+hero: true
+hero_title: Artificial Intelligence for Sustainable Energy Systems
+hero_subtitle: Fault diagnosis, predictive maintenance, explainable AI and digital twins for renewable energy, smart grids, batteries and complex dynamic systems.
+hero_affiliation: Associate Professor · PROMES-CNRS · Université de Perpignan Via Domitia
+hero_tags:
+  - Artificial Intelligence
+  - Fault Diagnosis
+  - Predictive Maintenance
+  - Photovoltaics
+  - Battery Systems
+  - Digital Twins
+
 news: false
 selected_papers: false
 social: true
 ---
-
-<style>
-.hero-section {
-  position: relative;
-  width: 100%;
-  min-height: 310px;
-  margin-bottom: 2.5rem;
-  border-radius: 14px;
-  overflow: hidden;
-  background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("/assets/img/hero_ai_energy.png");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  padding: 2.5rem;
-}
-
-.hero-content {
-  max-width: 760px;
-  color: white;
-}
-
-.hero-content h1 {
-  font-size: 2.7rem;
-  font-weight: 600;
-  margin-bottom: 0.8rem;
-}
-
-.hero-content p {
-  font-size: 1.15rem;
-  line-height: 1.6;
-  margin-bottom: 0.5rem;
-}
-
-.hero-tags {
-  margin-top: 1.2rem;
-}
-
-.hero-tags span {
-  display: inline-block;
-  margin: 0.25rem 0.35rem 0.25rem 0;
-  padding: 0.35rem 0.7rem;
-  border-radius: 20px;
-  background: rgba(255,255,255,0.16);
-  border: 1px solid rgba(255,255,255,0.25);
-  font-size: 0.9rem;
-}
-
-.metrics-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 1rem;
-  margin: 2rem 0 2.5rem 0;
-}
-
-.metric-card {
-  padding: 1.2rem;
-  border-radius: 12px;
-  background: var(--global-card-bg-color);
-  border: 1px solid var(--global-divider-color);
-  text-align: center;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.06);
-}
-
-.metric-card strong {
-  display: block;
-  font-size: 1.9rem;
-  color: var(--global-theme-color);
-  margin-bottom: 0.3rem;
-}
-
-.metric-card span {
-  font-size: 0.95rem;
-  color: var(--global-text-color);
-}
-
-.timeline {
-  margin: 2rem 0;
-  border-left: 3px solid var(--global-theme-color);
-  padding-left: 1.2rem;
-}
-
-.timeline-item {
-  margin-bottom: 1rem;
-}
-
-.timeline-item strong {
-  color: var(--global-theme-color);
-  margin-right: 0.5rem;
-}
-</style>
-
-<div class="hero-section">
-  <div class="hero-content">
-    <h1>Artificial Intelligence for Sustainable Energy Systems</h1>
-    <p>Fault diagnosis, predictive maintenance, explainable AI and digital twins for renewable energy, smart grids, batteries and complex dynamic systems.</p>
-    <p><strong>Associate Professor · PROMES-CNRS · Université de Perpignan Via Domitia</strong></p>
-
-    <div class="hero-tags">
-      <span>Artificial Intelligence</span>
-      <span>Fault Diagnosis</span>
-      <span>Predictive Maintenance</span>
-      <span>Photovoltaics</span>
-      <span>Battery Systems</span>
-      <span>Digital Twins</span>
-    </div>
-  </div>
-</div>
 
 <div class="metrics-grid">
   <div class="metric-card">
