@@ -3,7 +3,7 @@ layout: page
 title: PatientEvoPhysio
 subtitle: Open-source Modelica library for physiological simulation
 description: Open-source library for neonatal, fetal, pediatric and adult cardiovascular-respiratory simulation.
-img: assets/img/fetal.jpg
+img: assets/img/fetal.png
 category: biomedical
 importance: 1
 period: 2021–ongoing
