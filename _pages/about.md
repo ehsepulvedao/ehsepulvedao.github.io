@@ -2,39 +2,13 @@
 layout: about
 title: About
 permalink: /
+
 subtitle: <a href="https://www.univ-perp.fr/">Université de Perpignan Via Domitia</a> · <a href="https://iut.univ-perp.fr/">University Institute of Technology (IUT)</a> · <a href="https://www.promes.cnrs.fr">PROMES-CNRS (UPR 8521)</a>
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false
-  more_info: >
-    <div style="padding:12px 14px; border-left:4px solid #8e44ad; background:#f8f9fa; border-radius:6px;">
-      <p style="margin-bottom:10px;">
-        <strong>Associate Professor</strong><br>
-        Maître de Conférences
-      </p>
-
-      <p style="margin-bottom:10px;">
-        <strong>Affiliations</strong><br>
-        UPVD · IUT GIM<br>
-        PROMES-CNRS (UPR 8521)<br>
-        CSPG Research Team
-      </p>
-
-      <p style="margin-bottom:0;">
-        <strong>Research Areas</strong><br>
-        Artificial Intelligence<br>
-        Fault Diagnosis & Prognostics<br>
-        Renewable Energy Systems<br>
-        Biomedical Modeling
-      </p>
-    </div>
 
 hero: true
 hero_title: Artificial Intelligence for Sustainable Energy Systems
-hero_subtitle: Fault diagnosis, predictive maintenance, explainable AI and digital twins for renewable energy, smart grids, batteries and complex dynamic systems.
-hero_affiliation: ""
+hero_subtitle: Fault diagnosis, predictive maintenance, explainable AI and digital twins for renewable energy, smart grids, batteries and complex dynamic systems
+
 hero_tags:
   - Artificial Intelligence
   - Fault Diagnosis
@@ -47,6 +21,38 @@ news: false
 selected_papers: false
 social: true
 ---
+
+<div class="profile-row">
+
+  <div class="profile-photo">
+    <img src="/assets/img/prof_pic.jpg" alt="Edgar Hernando Sepúlveda-Oviedo">
+  </div>
+
+  <div class="profile-info-card">
+
+    <p>
+      <strong>Associate Professor</strong><br>
+      Maître de Conférences
+    </p>
+
+    <p>
+      <strong>Affiliations</strong><br>
+      UPVD · IUT GIM<br>
+      PROMES-CNRS (UPR 8521)<br>
+      CSPG Research Team
+    </p>
+
+    <p>
+      <strong>Research Areas</strong><br>
+      Artificial Intelligence<br>
+      Fault Diagnosis & Prognostics<br>
+      Renewable Energy Systems<br>
+      Biomedical Modeling
+    </p>
+
+  </div>
+
+</div>
 
 <div class="metrics-grid">
   <div class="metric-card">
@@ -82,7 +88,7 @@ My primary research interests lie in **renewable energy systems**, including pho
   <div class="timeline-item"><strong>2023</strong> Postdoctoral Researcher, LAAS-CNRS</div>
   <div class="timeline-item"><strong>2023–2024</strong> ATER, INSA Toulouse</div>
   <div class="timeline-item"><strong>2024-2025</strong> Postdoctoral Researcher, LAAS-CNRS</div>
-  <div class="timeline-item"><strong>2025–present</strong> Associate Professor, UPVD · PROMES-CNRS</div>
+  <div class="timeline-item"><strong>2025–present</strong> Associate Professor, UPVD · IUT GIM · PROMES-CNRS</div>
 </div>
 
 I obtained my PhD from **Université Toulouse III – Paul Sabatier** and **LAAS-CNRS** in Toulouse, France. My doctoral work was recognized with the **Prix de Thèse 2024** awarded by the **École Doctorale GEETS**, as well as the **Best Oral Presentation Award** at the GEETS Doctoral School Conference in 2022.
