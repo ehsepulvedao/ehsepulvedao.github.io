@@ -1,67 +1,87 @@
 ---
-layout: default
+layout: about
+title: About
+permalink: /
+subtitle: <a href="https://www.univ-perp.fr/">Université de Perpignan Via Domitia</a> · <a href="https://iut.univ-perp.fr/">University Institute of Technology (IUT)</a> · <a href="https://www.promes.cnrs.fr">PROMES-CNRS (UPR 8521)</a>
+
+hero: true
+hero_title: Artificial Intelligence for Sustainable Energy Systems
+hero_subtitle: Fault diagnosis, predictive maintenance, explainable AI and digital twins for renewable energy, smart grids, batteries and complex dynamic systems.
+hero_tags:
+  - Artificial Intelligence
+  - Fault Diagnosis
+  - Predictive Maintenance
+  - Photovoltaics
+  - Battery Systems
+  - Digital Twins
+
+news: false
+selected_papers: false
+social: true
 ---
 
-{% if page._styles %}
-  <style type="text/css">
-    {{ page._styles }}
-  </style>
-{% endif %}
-
-{% if page.hero %}
-<div class="hero-section">
-  <div class="hero-content">
-    <h1>{{ page.hero_title }}</h1>
-    <p>{{ page.hero_subtitle }}</p>
-    <p><strong>{{ page.hero_affiliation }}</strong></p>
-
-    <div class="hero-tags">
-      {% for tag in page.hero_tags %}
-        <span>{{ tag }}</span>
-      {% endfor %}
-    </div>
+<div class="metrics-grid">
+  <div class="metric-card">
+    <strong>40+</strong>
+    <span>Scientific outputs</span>
+  </div>
+  <div class="metric-card">
+    <strong>7+</strong>
+    <span>h-index</span>
+  </div>
+  <div class="metric-card">
+    <strong>35+</strong>
+    <span>Peer-review records</span>
+  </div>
+  <div class="metric-card">
+    <strong>3</strong>
+    <span>CNU qualifications</span>
   </div>
 </div>
-{% endif %}
 
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        {{ site.first_name }} {{ site.middle_name }}
-        <span class="font-weight-bold">{{ site.last_name }}</span>
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+<div class="profile-row">
+  <div class="profile-photo">
+    <img src="/assets/img/prof_pic.jpg" alt="Edgar Hernando Sepúlveda-Oviedo">
+  </div>
 
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-          {% endif %}
-          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=page.profile.image cache_bust=true %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
+  <div class="profile-info-card">
+    <p><strong>Associate Professor</strong><br>
+    Maître de Conférences</p>
 
-    <div class="clearfix">{{ content }}</div>
+    <p><strong>Affiliations</strong><br>
+    UPVD · IUT GIM<br>
+    PROMES-CNRS (UPR 8521)<br>
+    CSPG Research Team</p>
 
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-  </article>
+    <p><strong>Research Areas</strong><br>
+    Artificial Intelligence<br>
+    Fault Diagnosis & Prognostics<br>
+    Renewable Energy Systems<br>
+    Biomedical Modeling</p>
+  </div>
 </div>
+
+I am an **Associate Professor (Maître de Conférences)** in **Industrial Engineering and Maintenance** at the **Université de Perpignan Via Domitia (UPVD)** and a researcher at **PROMES-CNRS (UPR 8521)** within the **CSPG research team (Centrales Solaires de Prochaines Générations)**.
+
+My research focuses on the development of **model-based and data-driven approaches for fault diagnosis, prognostics, predictive maintenance, and artificial intelligence applied to complex engineering systems**. My work aims to improve the performance, reliability, resilience, and interpretability of industrial and energy systems operating under real-world conditions.
+
+My primary research interests lie in **renewable energy systems**, including photovoltaic power plants, battery energy storage systems, smart grids, microgrids, digital twins, and intelligent monitoring platforms. In parallel, I have conducted research in **biomedical systems modeling**, particularly in neonatal and fetal physiology, computational medicine, hybrid systems, and simulation-based medical education.
+
+## Academic Path
+
+<div class="timeline">
+  <div class="timeline-item"><strong>2015</strong> Mechatronics Engineering, Universidad Nacional de Colombia</div>
+  <div class="timeline-item"><strong>2019</strong> Master in Industrial Automation, Universidad Nacional de Colombia</div>
+  <div class="timeline-item"><strong>2020–2023</strong> CIFRE PhD, LAAS-CNRS and Feedgy</div>
+  <div class="timeline-item"><strong>2023</strong> Postdoctoral Researcher, LAAS-CNRS</div>
+  <div class="timeline-item"><strong>2023–2024</strong> ATER, INSA Toulouse</div>
+  <div class="timeline-item"><strong>2024–present</strong> Associate Professor, UPVD · PROMES-CNRS</div>
+</div>
+
+I obtained my PhD from **Université Toulouse III – Paul Sabatier** and **LAAS-CNRS** in Toulouse, France. My doctoral work was recognized with the **Prix de Thèse 2024** awarded by the **École Doctorale GEETS**, as well as the **Best Oral Presentation Award** at the GEETS Doctoral School Conference in 2022.
+
+I am qualified by the **French National Council of Universities (CNU)** in:
+
+- **Section 61** – Computer Engineering, Automation and Signal Processing
+- **Section 27** – Computer Science
+- **Section 63** – Electrical Engineering, Electronics, Photonics and Systems
