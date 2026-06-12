@@ -3,7 +3,7 @@ layout: page
 title: ALARMES
 subtitle: Automatic Alarm Extraction and Modeling of Photovoltaic Operational Events
 description: Explainable event-based representation and automatic alarm extraction for photovoltaic systems.
-img: assets/img/12.jpg
+img: assets/img/alarmes.png
 category: energy
 importance: 3
 period: 2025–ongoing
