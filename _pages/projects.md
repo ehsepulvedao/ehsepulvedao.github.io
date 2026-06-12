@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ""
-permalink: /Projects/
+title: Projects
+permalink: /projects/
 description: ""
 nav: true
 nav_order: 1
@@ -12,22 +12,33 @@ horizontal: true
 <!-- pages/projects.md -->
 
 <style>
-  .projects .category {
-    color: var(--global-text-color);
-    font-size: 2.1rem;
-    font-weight: 400;
-    margin-top: 2.5rem;
-    margin-bottom: 0.8rem;
-    padding-bottom: 0.4rem;
-    border-bottom: 1px solid var(--global-divider-color);
+
+  /* Oculta el título principal "Projects" de la página */
+  .post-header {
+    display: none;
   }
 
-  .projects .category-description {
-    margin-bottom: 1.8rem;
+  /* Títulos de categorías */
+  .projects .category {
     color: var(--global-text-color);
-    font-size: 1rem;
-    line-height: 1.6;
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--global-divider-color);
   }
+
+  /* Descripción debajo de cada categoría */
+  .projects .category-description {
+    margin-bottom: 2rem;
+    color: var(--global-text-color);
+    opacity: 0.85;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    max-width: 1000px;
+  }
+
 </style>
 
 <div class="projects">
@@ -36,27 +47,27 @@ horizontal: true
   {% for category in page.display_categories %}
 
   {% if category == "energy" %}
-  <a id="{{ category }}" href=".#{{ category }}">
+  <a id="{{ category }}" href="#{{ category }}">
     <h2 class="category">Artificial Intelligence for Energy Systems</h2>
   </a>
   <p class="category-description">
-    Projects focused on artificial intelligence, fault diagnosis, predictive maintenance, instrumentation, digital twins, photovoltaic systems, batteries, smart grids and resilient energy systems.
+    Research projects focused on artificial intelligence, fault diagnosis, predictive maintenance, instrumentation, digital twins, photovoltaic systems, battery storage, smart grids and resilient energy infrastructures.
   </p>
 
   {% elsif category == "biomedical" %}
-  <a id="{{ category }}" href=".#{{ category }}">
+  <a id="{{ category }}" href="#{{ category }}">
     <h2 class="category">Biomedical and Physiological Modeling</h2>
   </a>
   <p class="category-description">
-    Projects dedicated to biological systems modeling, neonatal and fetal physiological simulation, clinical protocols, medical digital twins and open-source biomedical software.
+    Research activities dedicated to physiological simulation, neonatal and fetal modeling, biomedical digital twins, computational medicine and open-source biomedical software development.
   </p>
 
   {% elsif category == "education" %}
-  <a id="{{ category }}" href=".#{{ category }}">
+  <a id="{{ category }}" href="#{{ category }}">
     <h2 class="category">Engineering Education and Digital Learning</h2>
   </a>
   <p class="category-description">
-    Pedagogical projects connecting research, digital laboratories, IoT, predictive maintenance, automation and active learning in engineering education.
+    Educational innovation projects connecting research, IoT technologies, automation, predictive maintenance, digital laboratories and active learning methodologies in engineering education.
   </p>
   {% endif %}
 
