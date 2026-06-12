@@ -3,7 +3,7 @@ layout: page
 title: Statechart Models for Neonatal Adaptation
 subtitle: Formal discrete-event representation of immediate neonatal adaptation guidelines
 description: Formal statechart modeling of neonatal adaptation guidelines for medical education, clinical representation and simulation.
-img: assets/img/3.jpg
+img: assets/img/statechart.png
 category: biomedical
 importance: 2
 period: 2016–2025
