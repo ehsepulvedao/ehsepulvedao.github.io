@@ -44,7 +44,7 @@ social: true
   margin-bottom: 2.5rem;
   border-radius: 14px;
   overflow: hidden;
-  background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("/assets/img/hero_ai_energy.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("/assets/img/hero_ai_energy.png");
   background-size: cover;
   background-position: center;
   display: flex;
