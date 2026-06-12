@@ -7,8 +7,7 @@ subtitle: <a href="https://www.univ-perp.fr/">Université de Perpignan Via Domit
 
 hero: true
 hero_title: Artificial Intelligence for Sustainable Energy Systems
-hero_subtitle: Fault diagnosis, predictive maintenance, explainable AI and digital twins for renewable energy, smart grids, batteries and complex dynamic systems
-
+hero_subtitle: Fault diagnosis, predictive maintenance, explainable AI and digital twins for renewable energy, smart grids, batteries and complex dynamic systems.
 hero_tags:
   - Artificial Intelligence
   - Fault Diagnosis
@@ -21,38 +20,6 @@ news: false
 selected_papers: false
 social: true
 ---
-
-<div class="profile-row">
-
-  <div class="profile-photo">
-    <img src="/assets/img/prof_pic.jpg" alt="Edgar Hernando Sepúlveda-Oviedo">
-  </div>
-
-  <div class="profile-info-card">
-
-    <p>
-      <strong>Associate Professor</strong><br>
-      Maître de Conférences
-    </p>
-
-    <p>
-      <strong>Affiliations</strong><br>
-      UPVD · IUT GIM<br>
-      PROMES-CNRS (UPR 8521)<br>
-      CSPG Research Team
-    </p>
-
-    <p>
-      <strong>Research Areas</strong><br>
-      Artificial Intelligence<br>
-      Fault Diagnosis & Prognostics<br>
-      Renewable Energy Systems<br>
-      Biomedical Modeling
-    </p>
-
-  </div>
-
-</div>
 
 <div class="metrics-grid">
   <div class="metric-card">
@@ -73,6 +40,34 @@ social: true
   </div>
 </div>
 
+<div class="profile-row">
+  <div class="profile-photo">
+    <img src="/assets/img/prof_pic.jpg" alt="Edgar Hernando Sepúlveda-Oviedo">
+  </div>
+
+  <div class="profile-info-card">
+    <p>
+      <strong>Associate Professor</strong><br>
+      Maître de Conférences
+    </p>
+
+    <p>
+      <strong>Affiliations</strong><br>
+      UPVD · IUT GIM<br>
+      PROMES-CNRS (UPR 8521)<br>
+      CSPG Research Team
+    </p>
+
+    <p>
+      <strong>Research Areas</strong><br>
+      Artificial Intelligence<br>
+      Fault Diagnosis & Prognostics<br>
+      Renewable Energy Systems<br>
+      Biomedical Modeling
+    </p>
+  </div>
+</div>
+
 I am an **Associate Professor (Maître de Conférences)** in **Industrial Engineering and Maintenance** at the **Université de Perpignan Via Domitia (UPVD)** and a researcher at **PROMES-CNRS (UPR 8521)** within the **CSPG research team (Centrales Solaires de Prochaines Générations)**.
 
 My research focuses on the development of **model-based and data-driven approaches for fault diagnosis, prognostics, predictive maintenance, and artificial intelligence applied to complex engineering systems**. My work aims to improve the performance, reliability, resilience, and interpretability of industrial and energy systems operating under real-world conditions.
@@ -85,9 +80,8 @@ My primary research interests lie in **renewable energy systems**, including pho
   <div class="timeline-item"><strong>2015</strong> Mechatronics Engineering, Universidad Nacional de Colombia</div>
   <div class="timeline-item"><strong>2019</strong> Master in Industrial Automation, Universidad Nacional de Colombia</div>
   <div class="timeline-item"><strong>2020–2023</strong> CIFRE PhD, LAAS-CNRS and Feedgy</div>
-  <div class="timeline-item"><strong>2023</strong> Postdoctoral Researcher, LAAS-CNRS</div>
   <div class="timeline-item"><strong>2023–2024</strong> ATER, INSA Toulouse</div>
-  <div class="timeline-item"><strong>2024-2025</strong> Postdoctoral Researcher, LAAS-CNRS</div>
+  <div class="timeline-item"><strong>2024–2025</strong> Postdoctoral Researcher, LAAS-CNRS</div>
   <div class="timeline-item"><strong>2025–present</strong> Associate Professor, UPVD · IUT GIM · PROMES-CNRS</div>
 </div>
 
