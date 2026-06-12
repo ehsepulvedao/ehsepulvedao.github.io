@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Projects
+title: ""
 permalink: /Projects/
-description: Research, education, and open-science projects organized by scientific area.
+description: ""
 nav: true
 nav_order: 1
 display_categories: [energy, biomedical, education]
@@ -10,6 +10,25 @@ horizontal: true
 ---
 
 <!-- pages/projects.md -->
+
+<style>
+  .projects .category {
+    color: var(--global-text-color);
+    font-size: 2.1rem;
+    font-weight: 400;
+    margin-top: 2.5rem;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .projects .category-description {
+    margin-bottom: 1.8rem;
+    color: var(--global-text-color);
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+</style>
 
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
@@ -20,21 +39,23 @@ horizontal: true
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">Artificial Intelligence for Energy Systems</h2>
   </a>
-  <p class="mb-4">
+  <p class="category-description">
     Projects focused on artificial intelligence, fault diagnosis, predictive maintenance, instrumentation, digital twins, photovoltaic systems, batteries, smart grids and resilient energy systems.
   </p>
+
   {% elsif category == "biomedical" %}
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">Biomedical and Physiological Modeling</h2>
   </a>
-  <p class="mb-4">
+  <p class="category-description">
     Projects dedicated to biological systems modeling, neonatal and fetal physiological simulation, clinical protocols, medical digital twins and open-source biomedical software.
   </p>
+
   {% elsif category == "education" %}
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">Engineering Education and Digital Learning</h2>
   </a>
-  <p class="mb-4">
+  <p class="category-description">
     Pedagogical projects connecting research, digital laboratories, IoT, predictive maintenance, automation and active learning in engineering education.
   </p>
   {% endif %}
