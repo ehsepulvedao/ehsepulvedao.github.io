@@ -3,7 +3,6 @@
 
 @charset "utf-8";
 
-// Dimensions
 $max-content-width: {{ site.max_width }};
 
 @import
@@ -23,10 +22,6 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
-
-/* ==========================================================
-   Project cards
-   ========================================================== */
 
 .project-card-link {
   text-decoration: none !important;
@@ -85,10 +80,6 @@ $max-content-width: {{ site.max_width }};
   margin-bottom: 0.25rem;
 }
 
-/* ==========================================================
-   Projects page category titles
-   ========================================================== */
-
 .projects .category {
   color: var(--global-text-color) !important;
   opacity: 1 !important;
@@ -118,10 +109,6 @@ $max-content-width: {{ site.max_width }};
   max-width: 1000px;
 }
 
-/* ==========================================================
-   Subtle academic background
-   ========================================================== */
-
 body {
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)),
@@ -136,10 +123,6 @@ html[data-theme="dark"] body {
     linear-gradient(rgba(18, 18, 18, 0.97), rgba(18, 18, 18, 0.97)),
     url("/assets/img/bg_pattern.png");
 }
-
-/* ==========================================================
-   Hero section for About page
-   ========================================================== */
 
 .hero-section {
   width: 100%;
@@ -197,10 +180,6 @@ html[data-theme="dark"] body {
   backdrop-filter: blur(6px);
 }
 
-/* ==========================================================
-   Metrics cards
-   ========================================================== */
-
 .metrics-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -228,10 +207,6 @@ html[data-theme="dark"] body {
   font-size: 0.95rem;
   color: var(--global-text-color);
 }
-
-/* ==========================================================
-   Profile block
-   ========================================================== */
 
 .profile-row {
   display: flex;
@@ -267,10 +242,6 @@ html[data-theme="dark"] body {
   margin-bottom: 0;
 }
 
-/* ==========================================================
-   Academic timeline
-   ========================================================== */
-
 .timeline {
   margin: 2rem 0;
   border-left: 3px solid var(--global-theme-color);
@@ -285,10 +256,6 @@ html[data-theme="dark"] body {
   color: var(--global-theme-color);
   margin-right: 0.5rem;
 }
-
-/* ==========================================================
-   Responsive adjustments
-   ========================================================== */
 
 @media (max-width: 768px) {
   .hero-section {
