@@ -87,11 +87,52 @@ My primary research interests lie in **renewable energy systems**, including pho
 
 I obtained my PhD from **Université Toulouse III – Paul Sabatier** and **LAAS-CNRS** in Toulouse, France. My doctoral work was recognized with the **Prix de Thèse 2024** awarded by the **École Doctorale GEETS**, as well as the **Best Oral Presentation Award** at the GEETS Doctoral School Conference in 2022.
 
-I am qualified by the **French National Council of Universities (CNU)** in:
+I am qualified by the **French National Council of Universities (CNU)** in three disciplinary sections:
 
-- **Section 61** – Computer Engineering, Automation and Signal Processing
-- **Section 27** – Computer Science
-- **Section 63** – Electrical Engineering, Electronics, Photonics and Systems
+<div class="table-responsive">
+<table class="table table-sm table-striped">
+<thead>
+<tr>
+<th>Section</th>
+<th>Field</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td>
+<a href="https://clubeea.com/recommandations-cnu/" target="_blank" rel="noopener noreferrer">
+Section 61
+</a>
+</td>
+<td>Computer Engineering, Automation and Signal Processing</td>
+<td>Qualified for Maître de Conférences</td>
+</tr>
+
+<tr>
+<td>
+<a href="https://cnu27.ls2n.fr/" target="_blank" rel="noopener noreferrer">
+Section 27
+</a>
+</td>
+<td>Computer Science</td>
+<td>Qualified for Maître de Conférences</td>
+</tr>
+
+<tr>
+<td>
+<a href="https://sectioncnu63qlf.sciencesconf.org/" target="_blank" rel="noopener noreferrer">
+Section 63
+</a>
+</td>
+<td>Electrical Engineering, Electronics, Photonics and Systems</td>
+<td>Qualified for Maître de Conférences</td>
+</tr>
+
+</tbody>
+</table>
+</div>
 
 I actively participate in national and international collaborations related to intelligent energy systems, renewable energy integration, explainable artificial intelligence, advanced diagnostics, digital twins, resilient smart grids, and complex dynamic systems.
 
