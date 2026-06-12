@@ -77,8 +77,8 @@ My primary research interests lie in **renewable energy systems**, including pho
 ## Academic Path
 
 <div class="timeline">
-  <div class="timeline-item"><strong>2015</strong> Mechatronics Engineering, Universidad Nacional de Colombia</div>
-  <div class="timeline-item"><strong>2019</strong> Master in Industrial Automation, Universidad Nacional de Colombia</div>
+  <div class="timeline-item"><strong>2010-2015</strong> Mechatronics Engineering, Universidad Nacional de Colombia</div>
+  <div class="timeline-item"><strong>2016-2019</strong> Master in Industrial Automation, Universidad Nacional de Colombia</div>
   <div class="timeline-item"><strong>2020–2023</strong> CIFRE PhD, LAAS-CNRS and Feedgy</div>
   <div class="timeline-item"><strong>2023–2024</strong> ATER, INSA Toulouse</div>
   <div class="timeline-item"><strong>2024–2025</strong> Postdoctoral Researcher, LAAS-CNRS</div>
