@@ -147,9 +147,14 @@ html[data-theme="dark"] body {
   margin: 2rem auto 2.8rem auto;
   border-radius: 16px;
   overflow: hidden;
+
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)),
-    url("{{ '/assets/img/hero_ai_energy.png' | relative_url }}");
+    linear-gradient(
+      rgba(0,0,0,0.58),
+      rgba(0,0,0,0.58)
+    ),
+    url("/assets/img/hero_ai_energy.png");
+
   background-size: cover;
   background-position: center;
   display: flex;
