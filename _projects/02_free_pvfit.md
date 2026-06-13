@@ -9,7 +9,7 @@ importance: 2
 period: 2026–2027
 status: Ongoing
 role: Co-Principal Investigator (Co-PI) / project initiator / Project Coordinator
-funding: Fédération de Recherche Energie Environnement (FREE 2043)
+funding: Fédération de Recherche Energie Environnement (FREE)
 related_publications: true
 ---
 
