@@ -8,7 +8,8 @@ category: energy
 importance: 11
 period: 2021–2024
 status: Completed
-role: Researcher (LAAS-CNRS DISCO Team)
+role: Research Engineer
+funding: SticAmSud project HAMADI 4.0
 related_publications: true
 ---
 
