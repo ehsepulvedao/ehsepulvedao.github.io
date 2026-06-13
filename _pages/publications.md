@@ -39,6 +39,11 @@ nav_order: 2
   </div>
 
   <div class="publication-summary-card">
+    <strong>2</strong>
+    <span>Theses</span>
+  </div>
+
+  <div class="publication-summary-card">
     <strong>{{ software_downloads }}</strong>
     <span>Software Downloads</span>
   </div>
