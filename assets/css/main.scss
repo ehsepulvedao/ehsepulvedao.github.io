@@ -111,10 +111,8 @@ $max-content-width: {{ site.max_width }};
 
 body {
   background-image:
-    linear-gradient(rgba(255,255,255,0.90),
-                    rgba(255,255,255,0.90)),
+    linear-gradient(rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.90)),
     url("/assets/img/bg_pattern.png");
-
   background-size: 500px;
   background-repeat: repeat;
   background-attachment: fixed;
@@ -122,8 +120,11 @@ body {
 
 html[data-theme="dark"] body {
   background-image:
-    linear-gradient(rgba(18, 18, 18, 0.97), rgba(18, 18, 18, 0.97)),
+    linear-gradient(rgba(18, 18, 18, 0.94), rgba(18, 18, 18, 0.94)),
     url("/assets/img/bg_pattern.png");
+  background-size: 500px;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 .hero-section {
@@ -177,18 +178,13 @@ html[data-theme="dark"] body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-
   padding: 0.75rem 1.35rem;
   border-radius: 24px;
-
-  background: rgba(255,255,255,0.08);
+  background: rgba(255, 255, 255, 0.08);
   border: 2px solid white;
-
   color: white !important;
   font-weight: 600;
-
-  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
-
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(8px);
 }
 
@@ -269,36 +265,21 @@ html[data-theme="dark"] body {
   margin-right: 0.5rem;
 }
 
-@media (max-width: 768px) {
-  .hero-section {
-    min-height: 300px;
-    padding: 2rem;
-  }
-
-  .hero-content h1 {
-    font-size: 2.1rem;
-  }
-
-  .hero-content p {
-    font-size: 1rem;
-  }
-
-  .profile-row {
-    flex-direction: column;
-  }
-
-  .profile-photo {
-    width: 100%;
-    max-width: 350px;
-    margin: auto;
-  }
-}
-
 .publication-summary {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1rem;
-  margin: 1.5rem 0 2.5rem 0;
+  margin: 2rem 0;
+  justify-content: center;
+}
+
+.publication-summary-main {
+  grid-template-columns: repeat(4, minmax(150px, 1fr));
+}
+
+.publication-summary-software {
+  grid-template-columns: repeat(2, minmax(180px, 220px));
+  margin-top: -0.5rem;
+  margin-bottom: 2.8rem;
 }
 
 .publication-summary-card {
@@ -351,5 +332,35 @@ html[data-theme="dark"] body {
 }
 
 .zenodo-title {
-margin-top: 4rem;
+  margin-top: 4rem;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 300px;
+    padding: 2rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2.1rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .profile-row {
+    flex-direction: column;
+  }
+
+  .profile-photo {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+  }
+
+  .publication-summary-main,
+  .publication-summary-software {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+  }
 }
