@@ -7,8 +7,8 @@ img: assets/img/IoT.png
 category: education
 importance: 3
 period: 2024–2025
-status: Submitted research
-role: Project Initiator
+status: Completed
+role: Scientific Collaborator
 related_publications: true
 ---
 
