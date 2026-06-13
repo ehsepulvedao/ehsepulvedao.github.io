@@ -8,7 +8,7 @@ category: energy
 importance: 1
 period: 2025–ongoing
 status: Ongoing
-role: Principal Investigator (PI)
+role: Principal Investigator (PI) / project initiator / Project Coordinator
 funding: PROMES-CNRS / LAAS-CNRS collaboration
 related_publications: true
 ---
