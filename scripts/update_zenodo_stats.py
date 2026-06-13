@@ -32,6 +32,7 @@ def extract_zenodo_records_from_bib(bib_text):
 
         if zenodo_id:
             title = title_match.group(1).replace("\n", " ").strip() if title_match else key
+            title = title.replace("{", "").replace("}", "").strip()
 
             records.append({
                 "key": key.strip(),
