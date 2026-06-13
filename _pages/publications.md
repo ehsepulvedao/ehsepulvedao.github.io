@@ -12,12 +12,12 @@ nav_order: 2
 <div class="publication-summary">
 
   <div class="publication-summary-card">
-    <strong>23</strong>
+    <strong>12</strong>
     <span>Journal Articles</span>
   </div>
 
   <div class="publication-summary-card">
-    <strong>15</strong>
+    <strong>9</strong>
     <span>Conference Papers</span>
   </div>
 
@@ -32,12 +32,12 @@ nav_order: 2
   </div>
 
   <div class="publication-summary-card">
-    <strong>4</strong>
+    <strong>1</strong>
     <span>Software & Data</span>
   </div>
 
   <div class="publication-summary-card">
-    <strong>45+</strong>
+    <strong>25+</strong>
     <span>Total Publications</span>
   </div>
 
