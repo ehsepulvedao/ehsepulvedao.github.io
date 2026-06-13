@@ -6,9 +6,9 @@ description: Formal statechart modeling of neonatal adaptation guidelines for me
 img: assets/img/statechart.png
 category: biomedical
 importance: 2
-period: 2016–2025
-status: Published research
-role: Principal Researcher
+period: 2016–ongoing
+status: Ongoing
+role: Principal Investigator (PI) / project initiator / Project Coordinator
 related_publications: true
 ---
 
