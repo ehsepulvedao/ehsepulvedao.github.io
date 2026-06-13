@@ -9,39 +9,31 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
-{% assign journal_articles = site.data.bibliography.references | where: "type", "article" %}
-{% assign patents = site.data.bibliography.references | where: "type", "patent" %}
-{% assign conferences = site.data.bibliography.references | where: "type", "inproceedings" %}
-{% assign misc = site.data.bibliography.references | where: "type", "misc" %}
-{% assign phd_theses = site.data.bibliography.references | where: "type", "phdthesis" %}
-{% assign master_theses = site.data.bibliography.references | where: "type", "mastersthesis" %}
-{% assign software = site.data.bibliography.references | where: "type", "softwareversion" %}
-
 <div class="publication-summary">
 
   <div class="publication-summary-card">
-    <strong>{{ journal_articles | size }}</strong>
+    <strong>23</strong>
     <span>Journal Articles</span>
   </div>
 
   <div class="publication-summary-card">
-    <strong>{{ conferences | size }}</strong>
+    <strong>15</strong>
     <span>Conference Papers</span>
   </div>
 
   <div class="publication-summary-card">
-    <strong>{{ patents | size }}</strong>
-    <span>Patents</span>
+    <strong>1</strong>
+    <span>Patent</span>
   </div>
 
   <div class="publication-summary-card">
-    <strong>{{ software | size }}</strong>
-    <span>Software</span>
-  </div>
-
-  <div class="publication-summary-card">
-    <strong>{{ phd_theses | size | plus: master_theses.size }}</strong>
+    <strong>2</strong>
     <span>Theses</span>
+  </div>
+
+  <div class="publication-summary-card">
+    <strong>4</strong>
+    <span>Software & Data</span>
   </div>
 
 </div>
@@ -65,7 +57,7 @@ nav_order: 2
 {% bibliography --query @phdthesis %}
 {% bibliography --query @mastersthesis %}
 
-<h2>Software</h2>
+<h2>Software and Data</h2>
 
 {% bibliography --query @softwareversion %}
 
