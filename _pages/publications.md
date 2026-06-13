@@ -11,13 +11,11 @@ nav_order: 2
 
 {% assign software_views = 0 %}
 {% assign software_downloads = 0 %}
-{% assign software_unique_downloads = 0 %}
 
 {% for item in site.data.zenodo_stats.records %}
   {% if item.zenodo_id == "10054995" %}
     {% assign software_views = item.views %}
     {% assign software_downloads = item.downloads %}
-    {% assign software_unique_downloads = item.unique_downloads %}
   {% endif %}
 {% endfor %}
 
@@ -48,12 +46,12 @@ nav_order: 2
 <div class="publication-summary publication-summary-software">
 
   <div class="publication-summary-card">
-    <strong>128</strong>
+    <strong>{{ software_downloads }}</strong>
     <span>Software Downloads</span>
   </div>
 
   <div class="publication-summary-card">
-    <strong>703</strong>
+    <strong>{{ software_views }}</strong>
     <span>Software Views</span>
   </div>
 
