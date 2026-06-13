@@ -9,7 +9,7 @@ importance: 3
 period: 2026
 status: Ongoing
 role: Principal Investigator (PI) / project initiator / Project Coordinator
-funding: AIRE 2026 – PROMES-CNRS
+funding: AIRE 2026 – PROMES-CNRS project INFINITY
 related_publications: true
 ---
 
