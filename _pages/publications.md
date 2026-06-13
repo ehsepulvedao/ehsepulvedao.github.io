@@ -59,7 +59,6 @@ nav_order: 2
 <h2>Conference Papers and Presentations</h2>
 
 {% bibliography --query @inproceedings %}
-{% bibliography --query @misc %}
 
 <h2>Theses</h2>
 
