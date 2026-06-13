@@ -1,0 +1,42 @@
+name: Update Zenodo statistics
+
+on:
+  push:
+    paths:
+      - "_bibliography/**"
+      - "scripts/update_zenodo_stats.py"
+      - ".github/workflows/update-zenodo-stats.yml"
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-zenodo-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pyyaml
+
+      - name: Update Zenodo statistics
+        run: |
+          python scripts/update_zenodo_stats.py
+
+      - name: Commit updated Zenodo statistics
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update Zenodo statistics"
+          file_pattern: "_data/zenodo_stats.yml"
