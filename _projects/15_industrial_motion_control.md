@@ -8,7 +8,7 @@ category: teaching
 importance: 12
 period: 2015–2016
 status: Completed
-role: Research and Development Engineer
+role: Master's Research Project
 related_publications: false
 ---
 
