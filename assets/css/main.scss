@@ -277,9 +277,15 @@ html[data-theme="dark"] body {
 }
 
 .publication-summary-software {
-  grid-template-columns: repeat(2, minmax(180px, 220px));
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
   margin-top: -0.5rem;
   margin-bottom: 2.8rem;
+}
+
+.publication-summary-software .publication-summary-card {
+  width: 220px;
 }
 
 .publication-summary-card {
@@ -359,8 +365,17 @@ html[data-theme="dark"] body {
     margin: auto;
   }
 
-  .publication-summary-main,
-  .publication-summary-software {
+  .publication-summary-main {
     grid-template-columns: repeat(2, minmax(140px, 1fr));
+  }
+
+  .publication-summary-software {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .publication-summary-software .publication-summary-card {
+    width: 100%;
+    max-width: 260px;
   }
 }
