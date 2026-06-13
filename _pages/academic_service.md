@@ -67,7 +67,7 @@ I regularly serve as a reviewer for international peer-reviewed journals in the 
 <tr>
 <td><em>Energy and AI</em></td>
 <td>Elsevier</td>
-<td>Q1 / Emerging high-impact journal</td>
+<td>Q1</td>
 <td>Artificial intelligence for energy systems</td>
 </tr>
 <tr>
