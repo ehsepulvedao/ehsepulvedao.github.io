@@ -61,7 +61,7 @@ Teaching activities, course materials, laboratory resources and pedagogical proj
 The following open educational resources correspond to laboratory guides and technical teaching materials developed for industrial automation, motion control and servomechanism training using the Allen-Bradley CompactLogix industrial platform.
 </p>
 
-{% bibliography --query @misc[type=Laboratory Guide] %}
+{% bibliography --query @misc[keywords~=teaching-material] %}
 
 </div>
 
