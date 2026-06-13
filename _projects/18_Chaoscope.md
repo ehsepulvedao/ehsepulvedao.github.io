@@ -9,7 +9,7 @@ importance: 4
 period: 2025
 status: Completed
 role: Scientific collaborator
-related_publications: false
+related_publications: true
 ---
 
 # Overview
