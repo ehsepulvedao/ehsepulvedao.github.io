@@ -7,6 +7,8 @@ nav: true
 nav_order: 3
 ---
 
+{% include bib_search.liquid %}
+
 Teaching activities, course materials, laboratory resources and pedagogical projects developed in the fields of industrial engineering, automation, artificial intelligence, renewable energy systems and maintenance engineering.
 
 <div class="teaching">
