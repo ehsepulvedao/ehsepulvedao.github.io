@@ -9,7 +9,8 @@ importance: 1
 period: 2026–2027
 status: Ongoing
 role: Principal Investigator (PI) / project initiator / Project Coordinator
-funding: UPVD BQR 2026
+funding: 
+funding: UPVD BQR 2026 – project SOL-MIND
 related_publications: true
 ---
 
