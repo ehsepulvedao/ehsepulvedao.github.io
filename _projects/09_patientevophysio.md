@@ -6,9 +6,9 @@ description: Open-source library for neonatal, fetal, pediatric and adult cardio
 img: assets/img/fetal.png
 category: biomedical
 importance: 1
-period: 2021–ongoing
-status: Open-source software
-role: Lead Developer and Release Manager
+period: 2016–ongoing
+status: Ongoing
+role: Principal Investigator (PI) / project initiator / Project Coordinator
 github: https://github.com/ehsepulvedao/PatientEvoPhysio
 doi: https://doi.org/10.5281/zenodo.10054995
 related_publications: true
