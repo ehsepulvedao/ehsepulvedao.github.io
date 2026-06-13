@@ -65,7 +65,7 @@ The following open educational resources correspond to laboratory guides and tec
 
 </div>
 
-<h2>Usage Statistics</h2>
+<h2 class="zenodo-title">Usage Statistics</h2>
 
 <p>
 The following table summarizes Zenodo usage statistics for the educational resources listed above.
