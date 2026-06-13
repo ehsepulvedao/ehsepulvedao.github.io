@@ -7,8 +7,8 @@ img: assets/img/neonatal.png
 category: biomedical
 importance: 1
 period: 2016–ongoing
-status: Ongoing research line
-role: Principal Researcher
+status: Ongoing
+role: Principal Investigator (PI) / project initiator / Project Coordinator
 related_publications: true
 ---
 
