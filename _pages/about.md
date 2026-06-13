@@ -7,7 +7,7 @@ subtitle: <a href="https://www.univ-perp.fr/">Université de Perpignan Via Domit
 
 hero: true
 hero_title: Artificial Intelligence for Sustainable Energy Systems
-hero_subtitle: Building trustworthy artificial intelligence and digital twins for the diagnosis, monitoring and optimization of next-generation energy systems.
+hero_subtitle: Building trustworthy artificial intelligence and digital twins for fault diagnosis, prognostics and health management of next-generation energy systems.
 hero_tags:
   - Artificial Intelligence
   - Explainable AI
