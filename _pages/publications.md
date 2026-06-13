@@ -21,7 +21,7 @@ nav_order: 2
   {% endif %}
 {% endfor %}
 
-<div class="publication-summary">
+<div class="publication-summary publication-summary-main">
 
   <div class="publication-summary-card">
     <strong>23</strong>
@@ -43,13 +43,17 @@ nav_order: 2
     <span>Theses</span>
   </div>
 
+</div>
+
+<div class="publication-summary publication-summary-software">
+
   <div class="publication-summary-card">
-    <strong>{{ software_downloads }}</strong>
+    <strong>128</strong>
     <span>Software Downloads</span>
   </div>
 
   <div class="publication-summary-card">
-    <strong>{{ software_views }}</strong>
+    <strong>703</strong>
     <span>Software Views</span>
   </div>
 
