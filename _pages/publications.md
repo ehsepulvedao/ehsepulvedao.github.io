@@ -41,14 +41,14 @@ nav_order: 2
     <span>Theses</span>
   </div>
 
-  <div class="publication-summary-card">
-    <strong>1</strong>
-    <span>Software & Data</span>
-  </div>
-
 </div>
 
 <div class="publication-summary publication-summary-software">
+
+  <div class="publication-summary-card">
+    <strong>1</strong>
+    <span>Software</span>
+  </div>
 
   <div class="publication-summary-card">
     <strong>{{ software_downloads }}</strong>
