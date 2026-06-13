@@ -8,8 +8,8 @@ category: energy
 importance: 5
 period: 2024–ongoing
 status: Ongoing
-role: Research contributor
-funding: PEPR TASE – DC-ARCHITECT
+role: Scientific Collaborator
+funding: PEPR TASE project DC-ARCHITECT
 related_publications: true
 ---
 
