@@ -9,7 +9,7 @@ importance: 1
 period: 2025–ongoing
 status: Ongoing
 role: Principal Investigator (PI) / project initiator / Project Coordinator
-related_publications: true
+related_publications: false
 ---
 
 # Overview
