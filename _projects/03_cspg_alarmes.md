@@ -8,7 +8,7 @@ category: energy
 importance: 3
 period: 2025–ongoing
 status: Ongoing
-role: Scientific Lead
+role: Principal Investigator (PI) / project initiator / Project Coordinator
 funding: PROMES-CNRS CSPG
 related_publications: true
 ---
