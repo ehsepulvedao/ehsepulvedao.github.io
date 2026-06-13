@@ -111,12 +111,8 @@ $max-content-width: {{ site.max_width }};
 
 body {
   background-image:
-    linear-gradient(
-      rgba(255,255,255,0.95),
-      rgba(255,255,255,0.95)
-    ),
+    linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
     url("/assets/img/bg_pattern.png");
-
   background-size: 500px;
   background-repeat: repeat;
 }
@@ -342,6 +338,33 @@ html[data-theme="dark"] body {
 
 .zenodo-title {
   margin-top: 4rem;
+}
+
+/* Academic Service */
+
+.academic-service h2 {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--global-divider-color);
+  color: var(--global-theme-color);
+}
+
+.academic-service h2:first-of-type {
+  margin-top: 2rem;
+}
+
+.academic-service h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.academic-service .table-responsive {
+  margin-bottom: 2.8rem;
+}
+
+.academic-service p {
+  margin-bottom: 1.2rem;
 }
 
 @media (max-width: 768px) {
