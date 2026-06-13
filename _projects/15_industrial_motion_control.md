@@ -9,7 +9,7 @@ importance: 12
 period: 2015–2016
 status: Completed
 role: Master's Research Project
-related_publications: false
+related_publications: true
 ---
 
 # Overview
