@@ -111,11 +111,14 @@ $max-content-width: {{ site.max_width }};
 
 body {
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.90)),
+    linear-gradient(
+      rgba(255,255,255,0.95),
+      rgba(255,255,255,0.95)
+    ),
     url("/assets/img/bg_pattern.png");
+
   background-size: 500px;
   background-repeat: repeat;
-  background-attachment: fixed;
 }
 
 html[data-theme="dark"] body {
