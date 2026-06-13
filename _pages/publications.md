@@ -9,15 +9,27 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+{% assign software_views = 0 %}
+{% assign software_downloads = 0 %}
+{% assign software_unique_downloads = 0 %}
+
+{% for item in site.data.zenodo_stats.records %}
+  {% if item.zenodo_id == "10054995" %}
+    {% assign software_views = item.views %}
+    {% assign software_downloads = item.downloads %}
+    {% assign software_unique_downloads = item.unique_downloads %}
+  {% endif %}
+{% endfor %}
+
 <div class="publication-summary">
 
   <div class="publication-summary-card">
-    <strong>12</strong>
+    <strong>23</strong>
     <span>Journal Articles</span>
   </div>
 
   <div class="publication-summary-card">
-    <strong>9</strong>
+    <strong>15</strong>
     <span>Conference Papers</span>
   </div>
 
@@ -27,13 +39,13 @@ nav_order: 2
   </div>
 
   <div class="publication-summary-card">
-    <strong>2</strong>
-    <span>Theses</span>
+    <strong>{{ software_downloads }}</strong>
+    <span>Software Downloads</span>
   </div>
 
   <div class="publication-summary-card">
-    <strong>1</strong>
-    <span>Software & Data</span>
+    <strong>{{ software_views }}</strong>
+    <span>Software Views</span>
   </div>
 
 </div>
