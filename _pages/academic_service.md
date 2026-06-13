@@ -320,7 +320,7 @@ I have also contributed to the peer-review process of international conferences 
 <tr>
 <td>2022</td>
 <td>Merit-based Artificial Intelligence Scholarship</td>
-<td>Misión TIC</td>
+<td>Ministerio de Tecnologías de la Información y las Comunicaciones de Colombia (MinTIC)</td>
 </tr>
 <tr>
 <td>2019</td>
@@ -330,7 +330,7 @@ I have also contributed to the peer-review process of international conferences 
 <tr>
 <td>2019</td>
 <td>Merit-based Artificial Intelligence Scholarship</td>
-<td>Ministry of Information and Communication Technologies of Colombia (MinTIC)</td>
+<td>Ministerio de Tecnologías de la Información y las Comunicaciones de Colombia (MinTIC)</td>
 </tr>
 <tr>
 <td>2019</td>
@@ -345,7 +345,7 @@ I have also contributed to the peer-review process of international conferences 
 <tr>
 <td>2017</td>
 <td>Merit-based Scholarship for Entrepreneurship and Leadership</td>
-<td>College of Higher Administration Studies</td>
+<td>Colegio de Estudios Superiores de Administración (CESA)</td>
 </tr>
 <tr>
 <td>2016</td>
