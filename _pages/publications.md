@@ -36,6 +36,11 @@ nav_order: 2
     <span>Software & Data</span>
   </div>
 
+  <div class="publication-summary-card">
+    <strong>45+</strong>
+    <span>Total Publications</span>
+  </div>
+
 </div>
 
 <div class="publications">
