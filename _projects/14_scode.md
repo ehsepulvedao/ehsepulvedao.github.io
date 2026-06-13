@@ -8,7 +8,7 @@ category: education
 importance: 2
 period: 2022–ongoing
 status: Completed
-role: Scientific Collaborator
+role: Scientific collaborator
 related_publications: true
 ---
 
