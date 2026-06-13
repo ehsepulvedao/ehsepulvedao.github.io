@@ -109,21 +109,38 @@ $max-content-width: {{ site.max_width }};
   max-width: 1000px;
 }
 
+html,
 body {
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
-    url("/assets/img/bg_pattern.png");
-  background-size: 500px;
-  background-repeat: repeat;
+  background-color: #ffffff !important;
+  background-image: url("/assets/img/bg_pattern.png") !important;
+  background-size: 420px !important;
+  background-repeat: repeat !important;
+  background-attachment: fixed !important;
+  background-position: top left !important;
 }
 
+html[data-theme="dark"],
 html[data-theme="dark"] body {
+  background-color: #121212 !important;
   background-image:
-    linear-gradient(rgba(18, 18, 18, 0.94), rgba(18, 18, 18, 0.94)),
-    url("/assets/img/bg_pattern.png");
-  background-size: 500px;
-  background-repeat: repeat;
-  background-attachment: fixed;
+    linear-gradient(rgba(18, 18, 18, 0.82), rgba(18, 18, 18, 0.82)),
+    url("/assets/img/bg_pattern.png") !important;
+  background-size: 420px !important;
+  background-repeat: repeat !important;
+  background-attachment: fixed !important;
+  background-position: top left !important;
+}
+
+main,
+.container,
+.post,
+article {
+  background-color: transparent !important;
+}
+
+.navbar,
+footer {
+  background-color: var(--global-bg-color) !important;
 }
 
 .hero-section {
@@ -339,8 +356,6 @@ html[data-theme="dark"] body {
 .zenodo-title {
   margin-top: 4rem;
 }
-
-/* Academic Service */
 
 .academic-service h2 {
   margin-top: 5rem;
