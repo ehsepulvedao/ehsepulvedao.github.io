@@ -79,13 +79,13 @@ I regularly serve as a reviewer for international peer-reviewed journals in the 
 <tr>
 <td><em>Energy Nexus</em></td>
 <td>Elsevier</td>
-<td>Scopus-indexed</td>
+<td>Q1</td>
 <td>Energy systems, sustainability, energy nexus</td>
 </tr>
 <tr>
 <td><em>Franklin Open</em></td>
 <td>Elsevier</td>
-<td>Open-access multidisciplinary journal</td>
+<td>Q2</td>
 <td>Engineering, applied science, interdisciplinary research</td>
 </tr>
 <tr>
@@ -109,67 +109,67 @@ I regularly serve as a reviewer for international peer-reviewed journals in the 
 <tr>
 <td><em>Energy Science & Engineering</em></td>
 <td>Wiley</td>
-<td>Q2 / Scopus-indexed</td>
+<td>Q2</td>
 <td>Energy science, engineering, renewable energy</td>
 </tr>
 <tr>
 <td><em>Energies</em></td>
 <td>MDPI</td>
-<td>Q2 / Scopus-indexed</td>
+<td>Q1</td>
 <td>Energy systems, renewable energy, power systems</td>
 </tr>
 <tr>
 <td><em>Sustainability</em></td>
 <td>MDPI</td>
-<td>Q2 / Scopus-indexed</td>
+<td>Q1</td>
 <td>Sustainability, environment, energy systems</td>
 </tr>
 <tr>
 <td><em>Electronics</em></td>
 <td>MDPI</td>
-<td>Q2 / Scopus-indexed</td>
+<td>Q2</td>
 <td>Electronics, embedded systems, power electronics</td>
 </tr>
 <tr>
 <td><em>PLOS ONE</em></td>
 <td>PLOS</td>
-<td>Q1 / Multidisciplinary</td>
+<td>Q1</td>
 <td>Multidisciplinary science</td>
 </tr>
 <tr>
 <td><em>Quantitative Imaging in Medicine and Surgery</em></td>
 <td>AME Publishing</td>
-<td>Q1 / Scopus-indexed</td>
+<td>Q2</td>
 <td>Biomedical imaging, medical data analysis</td>
 </tr>
 <tr>
 <td><em>Computers, Materials & Continua</em></td>
 <td>Tech Science Press</td>
-<td>Scopus-indexed</td>
+<td>Q2</td>
 <td>Computer science, materials, computational methods</td>
 </tr>
 <tr>
 <td><em>International Journal of Power Electronics and Drive Systems</em></td>
 <td>IAES</td>
-<td>Scopus-indexed</td>
+<td>Q3</td>
 <td>Power electronics, electrical drives, energy systems</td>
 </tr>
 <tr>
 <td><em>Bulletin of Electrical Engineering and Informatics</em></td>
 <td>IAES</td>
-<td>Scopus-indexed / Q2</td>
+<td>Q3</td>
 <td>Electrical engineering, informatics, automation</td>
 </tr>
 <tr>
 <td><em>Journal of Renewable Energy and Environment</em></td>
-<td>University / Academic Publisher</td>
-<td>Peer-reviewed journal</td>
+<td>Materials and Energy Research Center</td>
+<td>Q3</td>
 <td>Renewable energy, environmental systems</td>
 </tr>
 <tr>
 <td><em>CT&F - Ciencia, Tecnología y Futuro</em></td>
-<td>Ecopetrol / Scientific Publisher</td>
-<td>Scopus-indexed</td>
+<td>Ecopetrol</td>
+<td>Q3</td>
 <td>Energy, oil and gas, industrial systems</td>
 </tr>
 </tbody>
@@ -200,22 +200,16 @@ I have also contributed to the peer-review process of international conferences 
 <td>Fault detection, supervision, safety and reliability of technical processes</td>
 </tr>
 <tr>
-<td>Engineering Applications of Artificial Intelligence</td>
-<td>Elsevier</td>
+<td>IEEE Vehicle Power and Propulsion</td>
+<td>IEEE</td>
 <td>Reviewer</td>
-<td>Artificial intelligence and engineering applications</td>
+<td>Artificial intelligence, battery storage systems and engineering applications</td>
 </tr>
 <tr>
 <td>Symposium de Génie Électrique</td>
 <td>SGE</td>
 <td>Reviewer</td>
 <td>Electrical engineering, energy systems, power electronics</td>
-</tr>
-<tr>
-<td>IFAC scientific events</td>
-<td>International Federation of Automatic Control</td>
-<td>Reviewer / Contributor</td>
-<td>Automatic control, diagnosis, supervision, intelligent systems</td>
 </tr>
 </tbody>
 </table>
@@ -293,24 +287,9 @@ I have also contributed to the peer-review process of international conferences 
 </thead>
 <tbody>
 <tr>
-<td>Research proposal evaluation</td>
-<td>Expert evaluator / reviewer</td>
-<td>Energy systems, artificial intelligence, diagnostics, innovation projects</td>
-</tr>
-<tr>
 <td>France 2030 evaluation activities</td>
 <td>Expert evaluator</td>
 <td>Innovation, research and technology-oriented project evaluation</td>
-</tr>
-<tr>
-<td>Manuscript evaluation</td>
-<td>Peer reviewer</td>
-<td>International journals and conferences in energy, AI, diagnostics and engineering</td>
-</tr>
-<tr>
-<td>Internship and student project evaluation</td>
-<td>Academic evaluator / supervisor</td>
-<td>BUT, engineering, master-level and international internship projects</td>
 </tr>
 </tbody>
 </table>
