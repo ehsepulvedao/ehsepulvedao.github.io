@@ -22,12 +22,12 @@ nav_order: 2
 <div class="publication-summary publication-summary-main">
 
   <div class="publication-summary-card">
-    <strong>23</strong>
+    <strong>12</strong>
     <span>Journal Articles</span>
   </div>
 
   <div class="publication-summary-card">
-    <strong>15</strong>
+    <strong>9</strong>
     <span>Conference Papers</span>
   </div>
 
