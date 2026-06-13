@@ -8,8 +8,7 @@ category: education
 importance: 1
 period: 2025–ongoing
 status: Ongoing
-role: Project Initiator and Coordinator
-funding: IUT de Perpignan / UPVD pedagogical development
+role: Principal Investigator (PI) / project initiator / Project Coordinator
 related_publications: true
 ---
 
