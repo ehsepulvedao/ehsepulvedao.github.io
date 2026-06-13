@@ -7,7 +7,7 @@ img: assets/img/scode.png
 category: education
 importance: 2
 period: 2022–ongoing
-status: Submitted research
+status: Completed
 role: Scientific Collaborator
 related_publications: true
 ---
