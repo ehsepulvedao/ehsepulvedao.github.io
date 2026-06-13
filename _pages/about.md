@@ -137,8 +137,6 @@ Section 63
 </table>
 </div>
 
-I actively participate in national and international collaborations related to intelligent energy systems, renewable energy integration, explainable artificial intelligence, advanced diagnostics, digital twins, resilient smart grids, and complex dynamic systems.
-
 ## Research Interests
 
 - Artificial Intelligence and Machine Learning
