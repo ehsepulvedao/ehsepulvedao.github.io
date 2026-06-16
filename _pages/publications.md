@@ -56,7 +56,7 @@ nav_order: 2
   </div>
 
   <div class="publication-summary-card">
-    <strong>{{ software_views }}</strong>
+    <strong>{{ software_views X }}</strong>
     <span>Software Views</span>
   </div>
 
