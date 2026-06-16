@@ -96,136 +96,23 @@ nav_order: 2
 
 </div>
 
+<span id="scholar-total-citations-built" style="display: none;">
+  {% google_scholar_total_citations %}
+</span>
+
 <script>
-(function () {
-  function extractCitationValueFromText(text) {
-    if (!text) return 0;
+document.addEventListener("DOMContentLoaded", function () {
+  const source = document.getElementById("scholar-total-citations-built");
+  const target = document.getElementById("scholar-total-citations");
 
-    let raw = String(text).replace(/\s+/g, " ").trim();
-    let decoded = raw;
+  if (!source || !target) return;
 
-    try {
-      decoded = decodeURIComponent(raw);
-    } catch (e) {
-      decoded = raw;
-    }
+  const value = source.textContent.trim();
 
-    const candidates = [raw, decoded];
-
-    for (const candidate of candidates) {
-      const patterns = [
-        /scholar\s*[:\-]?\s*(\d+)/i,
-        /google\s*scholar\s*[:\-]?\s*(\d+)/i,
-        /cited\s*by\s*(\d+)/i,
-        /citations?\s*[:\-]?\s*(\d+)/i,
-        /badge\/scholar-(\d+)/i,
-        /badge\/google\s*scholar-(\d+)/i,
-        /badge\/Google%20Scholar-(\d+)/i,
-        /message=(\d+)/i,
-        /scholar-(\d+)/i,
-        /google-scholar-(\d+)/i,
-        /google_scholar-(\d+)/i
-      ];
-
-      for (const pattern of patterns) {
-        const match = candidate.match(pattern);
-        if (match) {
-          return parseInt(match[1], 10);
-        }
-      }
-    }
-
-    return 0;
+  if (value && value !== "0") {
+    target.textContent = value;
+  } else {
+    target.textContent = "—";
   }
-
-  function extractCitationValueFromElement(el) {
-    let best = 0;
-
-    const attributes = [
-      "textContent",
-      "alt",
-      "title",
-      "aria-label",
-      "data-original-title",
-      "href",
-      "src"
-    ];
-
-    attributes.forEach(function (attr) {
-      let value = "";
-
-      if (attr === "textContent") {
-        value = el.textContent || "";
-      } else {
-        value = el.getAttribute(attr) || "";
-      }
-
-      const extracted = extractCitationValueFromText(value);
-      if (extracted > best) best = extracted;
-    });
-
-    return best;
-  }
-
-  function extractScholarCitationsFromPublication(publicationElement) {
-    let bestValue = 0;
-
-    const fullText = publicationElement.textContent || "";
-    const fullTextValue = extractCitationValueFromText(fullText);
-    if (fullTextValue > bestValue) bestValue = fullTextValue;
-
-    const elements = publicationElement.querySelectorAll("a, span, img, div, small, button, object, svg");
-
-    elements.forEach(function (el) {
-      const value = extractCitationValueFromElement(el);
-      if (value > bestValue) bestValue = value;
-    });
-
-    return bestValue;
-  }
-
-  function updateScholarCitationTotal() {
-    const target = document.getElementById("scholar-total-citations");
-    if (!target) return;
-
-    let total = 0;
-
-    const publicationItems = document.querySelectorAll(".publications li");
-
-    publicationItems.forEach(function (item) {
-      total += extractScholarCitationsFromPublication(item);
-    });
-
-    target.textContent = total > 0 ? total : "—";
-  }
-
-  function startScholarCitationObserver() {
-    const publicationsContainer = document.querySelector(".publications");
-    if (!publicationsContainer) return;
-
-    const observer = new MutationObserver(function () {
-      updateScholarCitationTotal();
-    });
-
-    observer.observe(publicationsContainer, {
-      childList: true,
-      subtree: true,
-      characterData: true,
-      attributes: true,
-      attributeFilter: ["src", "href", "alt", "title", "aria-label", "data-original-title"]
-    });
-  }
-
-  document.addEventListener("DOMContentLoaded", function () {
-    updateScholarCitationTotal();
-    startScholarCitationObserver();
-
-    setTimeout(updateScholarCitationTotal, 500);
-    setTimeout(updateScholarCitationTotal, 1000);
-    setTimeout(updateScholarCitationTotal, 2000);
-    setTimeout(updateScholarCitationTotal, 4000);
-    setTimeout(updateScholarCitationTotal, 8000);
-    setTimeout(updateScholarCitationTotal, 12000);
-  });
-})();
+});
 </script>
