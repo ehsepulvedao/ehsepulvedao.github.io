@@ -96,3 +96,55 @@ nav_order: 2
 
 </div>
 
+<script>
+(function () {
+  function extractScholarCitationsFromPublication(publicationElement) {
+    let bestValue = 0;
+
+    const elements = publicationElement.querySelectorAll("a, span, img, div");
+
+    elements.forEach(function (el) {
+      const candidates = [
+        el.textContent,
+        el.getAttribute("alt"),
+        el.getAttribute("title"),
+        el.getAttribute("aria-label")
+      ].filter(Boolean);
+
+      candidates.forEach(function (candidate) {
+        const text = candidate.replace(/\s+/g, " ").trim();
+
+        const exactMatch = text.match(/^scholar\s+(\d+)$/i);
+        if (exactMatch) {
+          bestValue = Math.max(bestValue, parseInt(exactMatch[1], 10));
+        }
+      });
+    });
+
+    return bestValue;
+  }
+
+  function updateScholarCitationTotal() {
+    const target = document.getElementById("scholar-total-citations");
+    if (!target) return;
+
+    let total = 0;
+
+    const publicationItems = document.querySelectorAll(".publications li");
+
+    publicationItems.forEach(function (item) {
+      total += extractScholarCitationsFromPublication(item);
+    });
+
+    target.textContent = total > 0 ? total : "—";
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    updateScholarCitationTotal();
+
+    setTimeout(updateScholarCitationTotal, 500);
+    setTimeout(updateScholarCitationTotal, 1500);
+    setTimeout(updateScholarCitationTotal, 3000);
+  });
+})();
+</script>
