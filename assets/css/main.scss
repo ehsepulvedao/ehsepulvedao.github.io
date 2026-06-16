@@ -24,10 +24,6 @@ $max-content-width: {{ site.max_width }};
 "tabler-icons/tabler-icons-outline.scss"
 ;
 
-/* ============================================================
-Project cards
-============================================================ */
-
 .project-card-link {
 text-decoration: none !important;
 color: inherit !important;
@@ -114,10 +110,6 @@ line-height: 1.7;
 max-width: 1000px;
 }
 
-/* ============================================================
-Global background
-============================================================ */
-
 html,
 body {
 background-color: #ffffff !important;
@@ -151,10 +143,6 @@ background-color: transparent !important;
 footer {
 background-color: var(--global-bg-color) !important;
 }
-
-/* ============================================================
-Hero section
-============================================================ */
 
 .hero-section {
 width: 100%;
@@ -217,10 +205,6 @@ box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
 backdrop-filter: blur(8px);
 }
 
-/* ============================================================
-General metric cards
-============================================================ */
-
 .metrics-grid {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -248,10 +232,6 @@ margin-bottom: 0.3rem;
 font-size: 0.95rem;
 color: var(--global-text-color);
 }
-
-/* ============================================================
-Profile
-============================================================ */
 
 .profile-row {
 display: flex;
@@ -287,10 +267,6 @@ margin-bottom: 1.2rem;
 margin-bottom: 0;
 }
 
-/* ============================================================
-Timeline
-============================================================ */
-
 .timeline {
 margin: 2rem 0;
 border-left: 3px solid var(--global-theme-color);
@@ -306,26 +282,23 @@ color: var(--global-theme-color);
 margin-right: 0.5rem;
 }
 
-/* ============================================================
-Publications summary cards
-============================================================ */
-
 .publication-summary {
 display: grid;
 gap: 1rem;
+margin: 2rem 0;
 justify-content: center;
 }
 
 .publication-summary-main {
 grid-template-columns: repeat(4, minmax(150px, 1fr));
-margin: 2rem 0 1rem 0;
 }
 
 .publication-summary-software {
 display: flex;
 justify-content: center;
 gap: 1rem;
-margin: 1rem 0 1rem 0;
+margin-top: -0.5rem;
+margin-bottom: 1rem;
 }
 
 .publication-summary-software .publication-summary-card {
@@ -353,13 +326,13 @@ font-size: 0.95rem;
 color: var(--global-text-color);
 }
 
-/* Citation card: isolated from article badges */
 .publication-summary-citations {
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-margin: 1rem 0 2.8rem 0;
+margin-top: 0.2rem;
+margin-bottom: 2.8rem;
 }
 
 .publication-summary-card-citations {
@@ -376,10 +349,6 @@ color: #777;
 margin-top: 0.4rem;
 text-align: center;
 }
-
-/* ============================================================
-Zenodo summary cards
-============================================================ */
 
 .zenodo-summary {
 display: grid;
@@ -413,10 +382,6 @@ color: var(--global-text-color);
 margin-top: 4rem;
 }
 
-/* ============================================================
-Academic service
-============================================================ */
-
 .academic-service h2 {
 margin-top: 5rem;
 margin-bottom: 1rem;
@@ -441,10 +406,6 @@ margin-bottom: 2.8rem;
 .academic-service p {
 margin-bottom: 1.2rem;
 }
-
-/* ============================================================
-Responsive
-============================================================ */
 
 @media (max-width: 768px) {
 .hero-section {
