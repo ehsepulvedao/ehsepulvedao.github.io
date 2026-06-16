@@ -41,11 +41,6 @@ nav_order: 2
     <span>Theses</span>
   </div>
 
-  <div class="publication-summary-card">
-    <strong id="scholar-total-citations">—</strong>
-    <span>Citations</span>
-  </div>
-
 </div>
 
 <div class="publication-summary publication-summary-software">
@@ -63,6 +58,15 @@ nav_order: 2
   <div class="publication-summary-card">
     <strong>{{ software_views }}</strong>
     <span>Software Views</span>
+  </div>
+
+</div>
+
+<div class="publication-summary publication-summary-citations">
+
+  <div class="publication-summary-card publication-summary-card-citations">
+    <strong id="scholar-total-citations">—</strong>
+    <span>Total Citations</span>
   </div>
 
 </div>
