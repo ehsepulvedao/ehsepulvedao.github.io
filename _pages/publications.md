@@ -95,3 +95,7 @@ nav_order: 2
 {% bibliography --query @softwareversion %}
 
 </div>
+
+<p style="color: red; font-weight: bold;">
+  DEBUG TOTAL: {% google_scholar_total_citations %}
+</p>
