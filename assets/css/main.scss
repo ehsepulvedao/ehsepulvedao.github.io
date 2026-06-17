@@ -325,22 +325,27 @@ footer {
   color: var(--global-text-color);
 }
 
-.publication-summary-card-citations {
-  width: 280px;
-  min-height: 170px;
-  padding: 1.8rem 1.5rem;
+.publication-summary-citations {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0.6rem;
+  margin-bottom: 2.2rem;
+}
+
+.publication-summary-card-citations {
+  width: 250px;
+  padding: 1rem 1.3rem;
 }
 
 .publication-summary-card-citations strong {
-  font-size: 2.6rem;
-  margin-bottom: 0.6rem;
+  font-size: 2.15rem;
+  margin-bottom: 0.25rem;
 }
 
 .publication-summary-card-citations span {
-  font-size: 1.05rem;
+  font-size: 0.95rem;
 }
 
 .zenodo-summary {
@@ -436,5 +441,10 @@ footer {
   .publication-summary-software .publication-summary-card {
     width: 100%;
     max-width: 260px;
+  }
+
+  .publication-summary-card-citations {
+  width: 100%;
+  max-width: 260px;
   }
 }
