@@ -450,65 +450,83 @@ footer {
 }
 
 /* ============================================================
-About page social/contact icons
-============================================================ */
+   About page social/contact icons
+   ============================================================ */
 
+.post .social,
+.profile .social,
 .social {
-text-align: center;
-margin-top: 1rem;
+  text-align: center;
+  margin-top: 1rem;
 }
 
+.post .social .contact-icons,
+.profile .social .contact-icons,
 .social .contact-icons {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-column-gap: 1rem;
-row-gap: 0.6rem;
-font-size: 2.4rem;
-line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 0.9rem;
+  row-gap: 0.55rem;
+  font-size: 2.15rem;
+  line-height: 1;
 }
 
+.post .social .contact-icons a,
+.profile .social .contact-icons a,
 .social .contact-icons a {
-display: inline-flex;
-align-items: center;
-justify-content: center;
-color: var(--global-text-color);
-text-decoration: none;
-transition: transform 0.2s ease, color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--global-text-color);
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease;
 }
 
+.post .social .contact-icons a:hover,
+.profile .social .contact-icons a:hover,
 .social .contact-icons a:hover {
-transform: translateY(-2px);
-color: var(--global-theme-color);
+  transform: translateY(-2px);
+  color: var(--global-theme-color);
 }
 
+.post .social .contact-icons i,
+.post .social .contact-icons svg,
+.profile .social .contact-icons i,
+.profile .social .contact-icons svg,
 .social .contact-icons i,
 .social .contact-icons svg {
-font-size: inherit;
-width: 1em;
-height: 1em;
+  font-size: inherit;
+  width: 1em;
+  height: 1em;
 }
 
+.post .social .contact-note,
+.profile .social .contact-note,
 .social .contact-note {
-margin-top: 0.7rem;
-font-size: 0.95rem;
-color: var(--global-text-color);
+  margin-top: 0.65rem;
+  font-size: 0.9rem;
+  color: var(--global-text-color);
 }
 
 /* Mobile: smaller and cleaner */
 @media (max-width: 768px) {
-.social .contact-icons {
-font-size: 1.75rem;
-column-gap: 0.75rem;
-row-gap: 0.55rem;
-max-width: 320px;
-margin-left: auto;
-margin-right: auto;
-}
+  .post .social .contact-icons,
+  .profile .social .contact-icons,
+  .social .contact-icons {
+    font-size: 1.45rem;
+    column-gap: 0.65rem;
+    row-gap: 0.5rem;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.social .contact-note {
-font-size: 0.85rem;
-margin-top: 0.6rem;
-}
+  .post .social .contact-note,
+  .profile .social .contact-note,
+  .social .contact-note {
+    font-size: 0.82rem;
+    margin-top: 0.55rem;
+  }
 }
