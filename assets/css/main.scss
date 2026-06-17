@@ -325,6 +325,24 @@ footer {
   color: var(--global-text-color);
 }
 
+.publication-summary-card-citations {
+  width: 280px;
+  min-height: 170px;
+  padding: 1.8rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.publication-summary-card-citations strong {
+  font-size: 2.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.publication-summary-card-citations span {
+  font-size: 1.05rem;
+}
+
 .zenodo-summary {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
