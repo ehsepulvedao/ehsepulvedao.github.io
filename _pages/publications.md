@@ -95,24 +95,3 @@ nav_order: 2
 {% bibliography --query @softwareversion %}
 
 </div>
-
-<span id="scholar-total-citations-built" style="display: none;">
-  {% google_scholar_total_citations %}
-</span>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const source = document.getElementById("scholar-total-citations-built");
-  const target = document.getElementById("scholar-total-citations");
-
-  if (!source || !target) return;
-
-  const value = source.textContent.trim();
-
-  if (value && value !== "0") {
-    target.textContent = value;
-  } else {
-    target.textContent = "—";
-  }
-});
-</script>
