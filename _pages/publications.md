@@ -96,6 +96,29 @@ nav_order: 2
 
 </div>
 
-<p style="color: red; font-weight: bold;">
-  DEBUG TOTAL: {% google_scholar_total_citations %}
-</p>
+<script>
+(function () {
+  function updateScholarTotalCard() {
+    const target = document.getElementById("scholar-total-citations");
+    const value = "{% google_scholar_total_citations %}".trim();
+
+    if (!target) return;
+
+    if (value && value !== "0") {
+      target.textContent = value;
+    } else {
+      target.textContent = "—";
+    }
+  }
+
+  updateScholarTotalCard();
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", updateScholarTotalCard);
+  }
+
+  setTimeout(updateScholarTotalCard, 500);
+  setTimeout(updateScholarTotalCard, 1500);
+  setTimeout(updateScholarTotalCard, 3000);
+})();
+</script>
