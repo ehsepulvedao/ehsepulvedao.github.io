@@ -66,7 +66,7 @@ nav_order: 2
 
   <div class="publication-summary-card publication-summary-card-citations">
     <strong id="scholar-total-citations">—</strong>
-    <span>Total Citations</span>
+    <span>Total Citations X</span>
   </div>
 
 </div>
