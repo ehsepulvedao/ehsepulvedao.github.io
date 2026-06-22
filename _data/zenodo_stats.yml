@@ -1,17 +1,17 @@
 totals:
   records: 8
-  views: 1060
+  views: 1078
   downloads: 514
-  unique_views: 990
+  unique_views: 1008
   unique_downloads: 407
 records:
 - key: sepulvedaoviedo:hal-04423817v1
   title: PatientEvoPhysio Simulator
   zenodo_id: '10054995'
   url: https://zenodo.org/records/10054995
-  views: 712
+  views: 730
   downloads: 134
-  unique_views: 691
+  unique_views: 709
   unique_downloads: 109
 - key: sepulvedaoviedo2015motioncontrolintro
   title: Guía inicial para Control de Movimiento de Servomecanismos usando la Plataforma
