@@ -1,26 +1,26 @@
 totals:
   records: 8
-  views: 1335
-  downloads: 627
-  unique_views: 1265
-  unique_downloads: 519
+  views: 1347
+  downloads: 638
+  unique_views: 1277
+  unique_downloads: 530
 records:
 - key: sepulvedaoviedo:hal-04423817v1
   title: PatientEvoPhysio Simulator
   zenodo_id: '10054995'
   url: https://zenodo.org/records/10054995
-  views: 916
-  downloads: 153
-  unique_views: 895
-  unique_downloads: 128
+  views: 926
+  downloads: 164
+  unique_views: 905
+  unique_downloads: 139
 - key: sepulvedaoviedo2015motioncontrolintro
   title: Guía inicial para Control de Movimiento de Servomecanismos usando la Plataforma
     Industrial CompactLogix de Allen Bradley
   zenodo_id: '10617725'
   url: https://zenodo.org/records/10617725
-  views: 56
+  views: 57
   downloads: 66
-  unique_views: 46
+  unique_views: 47
   unique_downloads: 50
 - key: sepulvedaoviedo2015motioncontrolguide1
   title: 'Guía 1: Configuración Hardware-Software I de III para Control de Movimiento
@@ -45,9 +45,9 @@ records:
     de Servomecanismos usando la Plataforma Industrial CompactLogix de Allen Bradley'
   zenodo_id: '10617879'
   url: https://zenodo.org/records/10617879
-  views: 51
+  views: 52
   downloads: 50
-  unique_views: 44
+  unique_views: 45
   unique_downloads: 41
 - key: sepulvedaoviedo2015motioncontrolguide4
   title: 'Guía 4: Aspectos de programación de Movimiento I de III para Control de
