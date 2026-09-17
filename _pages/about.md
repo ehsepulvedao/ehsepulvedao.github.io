@@ -45,7 +45,7 @@ social: true
 
 <div class="profile-row">
   <div class="profile-photo">
-    <img src="/assets/img/prof_pic.jpg" alt="Edgar Hernando Sepúlveda-Oviedo">
+    <img src="/assets/img/prof_pic.png" alt="Edgar Hernando Sepúlveda-Oviedo">
   </div>
 
   <div class="profile-info-card">
