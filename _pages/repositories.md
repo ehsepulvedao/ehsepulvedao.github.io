@@ -25,9 +25,25 @@ nav_order: 4
 
 ## Research Repositories
 
-{% if site.data.repositories.github_repos %}
+My open-source research software and scientific repositories are organized below by research domain.
+
+### Health & Biomedical Engineering
+
+{% if site.data.repositories.health_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
+  {% for repo in site.data.repositories.health_repos %}
+    {% include repository/repo.liquid repository=repo %}
+  {% endfor %}
+</div>
+{% endif %}
+
+<br>
+
+### Renewable Energy & Photovoltaic Systems
+
+{% if site.data.repositories.renewable_energy_repos %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.repositories.renewable_energy_repos %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
 </div>
