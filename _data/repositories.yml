@@ -3,5 +3,9 @@ github_users:
 
 repo_description_lines_max: 3
 
-github_repos:
+health_repos:
   - ehsepulvedao/PatientEvoPhysio
+
+renewable_energy_repos:
+  - ehsepulvedao/pv-synthetic-pv-fault-dataset-generator
+  - ehsepulvedao/pv-real-weather-pv-fault-dataset-generator
