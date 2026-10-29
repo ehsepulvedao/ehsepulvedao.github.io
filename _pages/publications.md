@@ -27,7 +27,7 @@ nav_order: 2
   </div>
 
   <div class="publication-summary-card">
-    <strong>9</strong>
+    <strong>15</strong>
     <span>Conference Papers</span>
   </div>
 
